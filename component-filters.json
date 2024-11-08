@@ -41,9 +41,21 @@
     ]
   },
   {
+    "id": "select",
+    "components": [
+      "select"
+    ]
+  },
+  {
     "id": "tab",
     "components": [
       "tablist"
+    ]
+  },
+  {
+    "id": "tablist",
+    "components": [
+      "select"
     ]
   }
 ]

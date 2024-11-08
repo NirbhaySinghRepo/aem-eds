@@ -186,6 +186,27 @@
     ]
   },
   {
+    "id": "select",
+    "fields": [
+      {
+        "component": "select",
+        "label": "Select",
+        "name": "select",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Style 1",
+            "value": "style1"
+          },
+          {
+            "name": "Style 2",
+            "value": "style2"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "tablist",
     "fields": [
       {
