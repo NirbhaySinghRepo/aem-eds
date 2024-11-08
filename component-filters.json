@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "tab"
+      "tab",
+      "select"
     ]
   },
   {
@@ -49,7 +50,8 @@
   {
     "id": "tab",
     "components": [
-      "tablist"
+      "tablist",
+      "select"
     ]
   },
   {
