@@ -54,10 +54,6 @@
   ],
   "filters": [
     {
-      "id": "tab",
-      "components": ["tablist", "select"]
-    },
-    {
       "id": "tablist",
       "components": ["select"]
     }
