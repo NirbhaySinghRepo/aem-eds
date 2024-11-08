@@ -50,6 +50,21 @@
           "valueType": "string"
         }
       ]
+    },
+    {
+      "id": "radio-group",
+      "fields": [
+        {
+          "component": "radio-group",
+          "label": "Radio Group",
+          "name": "radio",
+          "valueType": "string",
+          "options": [
+            { "name": "Option 1", "value": "option1" },
+            { "name": "Option 2", "value": "option2" }
+          ]
+        }
+      ]
     }
   ],
   "filters": [
