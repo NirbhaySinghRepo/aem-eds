@@ -29,6 +29,21 @@
           }
         }
       }
+    },
+    {
+      "title": "Tab Content",
+      "id": "tabContent",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "tabContent",
+              "model": "tabContent"
+            }
+          }
+        }
+      }
     }
   ],
   "models": [
@@ -48,12 +63,101 @@
           "name": "select",
           "valueType": "string",
           "options": [
-            { "name": "Style 1", "value": "option1" },
-            { "name": "Style 2", "value": "option2" }
+            { "name": "Feature page", "value": "featurePage" },
+            { "name": "Design Page", "value": "DesignPage" }
           ]
+        }
+      ]
+    },
+    {
+      "id": "tabContent",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "Title",
+          "label": "Title",
+          "value": ""
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "name": "heading",
+          "value": "",
+          "label": "Heading",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "description",
+          "value": "",
+          "label": "Description",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "usp1Name",
+          "value": "",
+          "label": "USP1",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "usp1value",
+          "value": "",
+          "label": "USP1 Value",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "usp2Name",
+          "value": "",
+          "label": "USP2",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "usp2Value",
+          "value": "",
+          "label": "USP2 Value",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "usp3Name",
+          "value": "",
+          "label": "USP3",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "usp3Value",
+          "value": "",
+          "label": "USP3 Value",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "usp4Name",
+          "value": "",
+          "label": "USP4",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "usp4Value",
+          "value": "",
+          "label": "USP4 Value",
+          "valueType": "string"
         }
       ]
     }
   ],
-  "filters": ["tabcontent"]
+  "filters": []
 }
