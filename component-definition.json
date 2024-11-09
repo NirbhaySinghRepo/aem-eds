@@ -193,7 +193,7 @@
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item/tablist",
+                "resourceType": "core/franklin/components/block/v1/block/item/item",
                 "template": {
                   "name": "tabContent",
                   "model": "tabContent"
