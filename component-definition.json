@@ -178,7 +178,7 @@
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
+                "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "tablist",
                   "model": "tablist"
@@ -188,15 +188,30 @@
           }
         },
         {
-          "title": "Tab Content",
-          "id": "tabContent",
+          "title": "Feature Page Content",
+          "id": "featurePageContent",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item/item",
                 "template": {
-                  "name": "tabContent",
-                  "model": "tabContent"
+                  "name": "featurePageContent",
+                  "model": "featurePageContent"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Design Page Content",
+          "id": "designPageContent",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item/item",
+                "template": {
+                  "name": "designPageContent",
+                  "model": "designPageContent"
                 }
               }
             }

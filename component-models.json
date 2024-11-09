@@ -203,23 +203,23 @@
         "options": [
           {
             "name": "Feature page",
-            "value": "featurePage"
+            "value": "featurePageContent"
           },
           {
             "name": "Design Page",
-            "value": "DesignPage"
+            "value": "designPageContent"
           }
         ]
       }
     ]
   },
   {
-    "id": "tabContent",
+    "id": "featurePageContent",
     "fields": [
       {
         "component": "text",
         "valueType": "string",
-        "name": "Title",
+        "name": "featurePageTitle",
         "label": "Title",
         "value": ""
       },
@@ -243,6 +243,25 @@
         "value": "",
         "label": "Description",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "designPageContent",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "designPageTitle",
+        "label": "Tab Name",
+        "multi": false
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
       },
       {
         "component": "richtext",
