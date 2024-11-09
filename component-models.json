@@ -191,36 +191,9 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "Title",
-        "label": "Title",
-        "value": ""
-      },
-      {
-        "component": "reference",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
         "name": "tabName",
         "label": "Tab Name",
         "multi": false
-      },
-      {
-        "component": "richtext",
-        "name": "heading",
-        "value": "",
-        "label": "Heading",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "description",
-        "value": "",
-        "label": "Description",
-        "valueType": "string"
       },
       {
         "component": "select",
@@ -237,6 +210,39 @@
             "value": "option2"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "tabcontent",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "Title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "heading",
+        "value": "",
+        "label": "Heading",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
       },
       {
         "component": "richtext",
