@@ -221,19 +221,19 @@
         "valueType": "string",
         "options": [
           {
-            "name": "Feature page",
-            "value": "featurePageContent"
+            "name": "Style 1",
+            "value": "option1"
           },
           {
-            "name": "Design Page",
-            "value": "designPageContent"
+            "name": "Style 2",
+            "value": "option2"
           }
         ]
       }
     ]
   },
   {
-    "id": "tabContent",
+    "id": "style1",
     "fields": [
       {
         "component": "richtext",
@@ -248,7 +248,12 @@
         "value": "",
         "label": "Description",
         "valueType": "string"
-      },
+      }
+    ]
+  },
+  {
+    "id": "style2",
+    "fields": [
       {
         "component": "richtext",
         "name": "usp",

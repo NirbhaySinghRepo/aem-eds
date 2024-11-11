@@ -32,15 +32,34 @@
       }
     },
     {
-      "title": "Tab Content",
-      "id": "tabContent",
+      "title": "Style1",
+      "id": "style1",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
-              "name": "tabContent",
-              "model": "tabContent"
+              "name": "style1",
+              "model": "style1",
+              "heading": "text1",
+              "description": "desc1"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Style2",
+      "id": "style2",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "style2",
+              "model": "style2",
+              "usp": "uspheading",
+              "uspvalue": "uspspec"
             }
           }
         }
@@ -83,14 +102,14 @@
           "name": "select",
           "valueType": "string",
           "options": [
-            { "name": "Feature page", "value": "featurePageContent" },
-            { "name": "Design Page", "value": "designPageContent" }
+            { "name": "Style 1", "value": "option1" },
+            { "name": "Style 2", "value": "option2" }
           ]
         }
       ]
     },
     {
-      "id": "tabContent",
+      "id": "style1",
       "fields": [
         {
           "component": "richtext",
@@ -105,7 +124,12 @@
           "value": "",
           "label": "Description",
           "valueType": "string"
-        },
+        }
+      ]
+    },
+    {
+      "id": "style2",
+      "fields": [
         {
           "component": "richtext",
           "name": "usp",
@@ -125,5 +149,18 @@
       ]
     }
   ],
-  "filters": []
+  "filters": [
+    {
+      "id": "tab",
+      "components": ["tablist"]
+    },
+    {
+      "id": "option1",
+      "components": ["style1"]
+    },
+    {
+      "id": "option2",
+      "components": ["style2"]
+    }
+  ]
 }
