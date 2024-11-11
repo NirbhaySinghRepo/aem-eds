@@ -212,7 +212,7 @@
         "valueType": "string",
         "name": "tabName",
         "label": "Tab Name",
-        "multi": true
+        "multi": false
       },
       {
         "component": "select",
@@ -251,17 +251,19 @@
       },
       {
         "component": "richtext",
-        "name": "usp1Name",
+        "name": "usp",
         "value": "",
-        "label": "USP1",
-        "valueType": "string"
+        "label": "USP",
+        "valueType": "string",
+        "multi": true
       },
       {
         "component": "richtext",
-        "name": "usp1value",
+        "name": "uspvalue",
         "value": "",
-        "label": "USP1 Value",
-        "valueType": "string"
+        "label": "USP Value",
+        "valueType": "string",
+        "multi": true
       }
     ]
   }
