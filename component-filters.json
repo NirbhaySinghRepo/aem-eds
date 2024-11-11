@@ -45,5 +45,11 @@
     "components": [
       "tablist"
     ]
+  },
+  {
+    "id": "tablist",
+    "components": [
+      "tabContent"
+    ]
   }
 ]

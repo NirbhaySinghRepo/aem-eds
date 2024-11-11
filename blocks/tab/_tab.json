@@ -131,6 +131,10 @@
     {
       "id": "tab",
       "components": ["tablist"]
+    },
+    {
+      "id": "tablist",
+      "components": ["tabContent"]
     }
   ]
 }
