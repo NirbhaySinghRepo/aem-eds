@@ -83,8 +83,16 @@
           "name": "select",
           "valueType": "string",
           "options": [
-            { "name": "Feature page", "value": "featurePageContent" },
-            { "name": "Design Page", "value": "designPageContent" }
+            {
+              "name": "Feature page",
+              "value": "featurePageContent",
+              "model": "tabContent"
+            },
+            {
+              "name": "Design Page",
+              "value": "designPageContent",
+              "model": "tablist"
+            }
           ]
         }
       ]

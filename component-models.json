@@ -222,11 +222,13 @@
         "options": [
           {
             "name": "Feature page",
-            "value": "featurePageContent"
+            "value": "featurePageContent",
+            "model": "tabContent"
           },
           {
             "name": "Design Page",
-            "value": "designPageContent"
+            "value": "designPageContent",
+            "model": "tablist"
           }
         ]
       }
