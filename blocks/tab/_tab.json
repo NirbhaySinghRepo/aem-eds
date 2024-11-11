@@ -48,6 +48,25 @@
   ],
   "models": [
     {
+      "id": "tab",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "featurePageTitle",
+          "label": "Title",
+          "value": ""
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        }
+      ]
+    },
+    {
       "id": "tablist",
       "fields": [
         {
