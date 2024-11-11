@@ -79,8 +79,8 @@
         },
         {
           "component": "select",
-          "label": "Select",
-          "name": "select",
+          "label": "Variation Type",
+          "name": "varType",
           "valueType": "string",
           "options": [
             { "name": "Variation 1", "value": "var1" },
@@ -112,7 +112,8 @@
           "value": "",
           "label": "USP",
           "valueType": "string",
-          "multi": true
+          "multi": true,
+          "condition": { "==": [{ "var": "varType" }, "var2"] }
         },
         {
           "component": "richtext",
@@ -120,7 +121,8 @@
           "value": "",
           "label": "USP Value",
           "valueType": "string",
-          "multi": true
+          "multi": true,
+          "condition": { "==": [{ "var": "varType" }, "var2"] }
         }
       ]
     }
