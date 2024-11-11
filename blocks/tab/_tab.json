@@ -63,6 +63,25 @@
   ],
   "models": [
     {
+      "id": "tab",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "featurePageTitle",
+          "label": "Title",
+          "value": ""
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        }
+      ]
+    },
+    {
       "id": "tablist",
       "fields": [
         {
@@ -87,20 +106,6 @@
     {
       "id": "featurePageContent",
       "fields": [
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "featurePageTitle",
-          "label": "Title",
-          "value": ""
-        },
-        {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Image",
-          "multi": false
-        },
         {
           "component": "richtext",
           "name": "heading",
@@ -146,48 +151,6 @@
           "name": "usp1value",
           "value": "",
           "label": "USP1 Value",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "usp2Name",
-          "value": "",
-          "label": "USP2",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "usp2Value",
-          "value": "",
-          "label": "USP2 Value",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "usp3Name",
-          "value": "",
-          "label": "USP3",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "usp3Value",
-          "value": "",
-          "label": "USP3 Value",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "usp4Name",
-          "value": "",
-          "label": "USP4",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "usp4Value",
-          "value": "",
-          "label": "USP4 Value",
           "valueType": "string"
         }
       ]
