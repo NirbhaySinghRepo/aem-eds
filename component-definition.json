@@ -189,34 +189,15 @@
           }
         },
         {
-          "title": "Style1",
-          "id": "style1",
+          "title": "Tab Content",
+          "id": "tabContent",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
-                  "name": "style1",
-                  "model": "style1",
-                  "heading": "text1",
-                  "description": "desc1"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Style2",
-          "id": "style2",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "style2",
-                  "model": "style2",
-                  "usp": "uspheading",
-                  "uspvalue": "uspspec"
+                  "name": "tabContent",
+                  "model": "tabContent"
                 }
               }
             }

@@ -221,19 +221,19 @@
         "valueType": "string",
         "options": [
           {
-            "name": "Style 1",
-            "value": "option1"
+            "name": "Variation 1",
+            "value": "var1"
           },
           {
-            "name": "Style 2",
-            "value": "option2"
+            "name": "Variation 2",
+            "value": "var2"
           }
         ]
       }
     ]
   },
   {
-    "id": "style1",
+    "id": "tabContent",
     "fields": [
       {
         "component": "richtext",
@@ -248,12 +248,7 @@
         "value": "",
         "label": "Description",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "style2",
-    "fields": [
+      },
       {
         "component": "richtext",
         "name": "usp",

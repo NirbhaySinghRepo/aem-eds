@@ -45,17 +45,5 @@
     "components": [
       "tablist"
     ]
-  },
-  {
-    "id": "option1",
-    "components": [
-      "style1"
-    ]
-  },
-  {
-    "id": "option2",
-    "components": [
-      "style2"
-    ]
   }
 ]
