@@ -31,30 +31,15 @@
       }
     },
     {
-      "title": "Feature Page Content",
-      "id": "featurePageContent",
+      "title": "Tab Content",
+      "id": "tabContent",
       "plugins": {
         "xwalk": {
           "page": {
-            "resourceType": "core/franklin/components/block/v1/block/item/item",
+            "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
-              "name": "featurePageContent",
-              "model": "featurePageContent"
-            }
-          }
-        }
-      }
-    },
-    {
-      "title": "Design Page Content",
-      "id": "designPageContent",
-      "plugins": {
-        "xwalk": {
-          "page": {
-            "resourceType": "core/franklin/components/block/v1/block/item/item",
-            "template": {
-              "name": "designPageContent",
-              "model": "designPageContent"
+              "name": "tabContent",
+              "model": "tabContent"
             }
           }
         }
@@ -89,7 +74,7 @@
           "valueType": "string",
           "name": "tabName",
           "label": "Tab Name",
-          "multi": false
+          "multi": true
         },
         {
           "component": "select",
@@ -104,7 +89,7 @@
       ]
     },
     {
-      "id": "featurePageContent",
+      "id": "tabContent",
       "fields": [
         {
           "component": "richtext",
@@ -119,25 +104,6 @@
           "value": "",
           "label": "Description",
           "valueType": "string"
-        }
-      ]
-    },
-    {
-      "id": "designPageContent",
-      "fields": [
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "designPageTitle",
-          "label": "Tab Name",
-          "multi": false
-        },
-        {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Image",
-          "multi": false
         },
         {
           "component": "richtext",

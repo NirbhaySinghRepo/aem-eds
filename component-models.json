@@ -212,7 +212,7 @@
         "valueType": "string",
         "name": "tabName",
         "label": "Tab Name",
-        "multi": false
+        "multi": true
       },
       {
         "component": "select",
@@ -233,7 +233,7 @@
     ]
   },
   {
-    "id": "featurePageContent",
+    "id": "tabContent",
     "fields": [
       {
         "component": "richtext",
@@ -248,25 +248,6 @@
         "value": "",
         "label": "Description",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "designPageContent",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "designPageTitle",
-        "label": "Tab Name",
-        "multi": false
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
       },
       {
         "component": "richtext",
