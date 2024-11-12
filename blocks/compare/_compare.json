@@ -67,10 +67,5 @@
       ]
     }
   ],
-  "filters": [
-    {
-      "id": "tab",
-      "components": ["tabContent"]
-    }
-  ]
+  "filters": []
 }

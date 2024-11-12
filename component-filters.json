@@ -45,11 +45,5 @@
     "components": [
       "tabContent"
     ]
-  },
-  {
-    "id": "tab",
-    "components": [
-      "tabContent"
-    ]
   }
 ]
