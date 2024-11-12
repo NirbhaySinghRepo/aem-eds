@@ -115,6 +115,7 @@
           "valueType": "string",
           "collapsible": true,
           "condition": { "==": [{ "var": "varType" }, "var2"] },
+          "multi": true,
           "fields": [
             {
               "component": "text-input",

@@ -360,6 +360,7 @@
             "var2"
           ]
         },
+        "multi": true,
         "fields": [
           {
             "component": "text-input",
