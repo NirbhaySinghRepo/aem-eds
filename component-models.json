@@ -258,7 +258,6 @@
         "multi": true
       },
       {
-        "component": "richtext",
         "multi": true,
         "condition": {
           "==": [
@@ -268,14 +267,16 @@
             "var2"
           ]
         },
-        "options": [
+        "fields": [
           {
+            "component": "richtext",
             "name": "usp",
             "value": "",
             "label": "USP",
             "valueType": "string"
           },
           {
+            "component": "richtext",
             "name": "uspvalue",
             "value": "",
             "label": "USP Value",
