@@ -172,37 +172,6 @@
               }
             }
           }
-        },
-        {
-          "title": "Tablist",
-          "id": "tablist",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "tablist",
-                  "model": "tablist",
-                  "filter": "tablist"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Tab Content",
-          "id": "tabContent",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "tabContent",
-                  "model": "tabContent"
-                }
-              }
-            }
-          }
         }
       ]
     }

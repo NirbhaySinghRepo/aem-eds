@@ -15,37 +15,6 @@
           }
         }
       }
-    },
-    {
-      "title": "Tablist",
-      "id": "tablist",
-      "plugins": {
-        "xwalk": {
-          "page": {
-            "resourceType": "core/franklin/components/block/v1/block/item",
-            "template": {
-              "name": "tablist",
-              "model": "tablist",
-              "filter": "tablist"
-            }
-          }
-        }
-      }
-    },
-    {
-      "title": "Tab Content",
-      "id": "tabContent",
-      "plugins": {
-        "xwalk": {
-          "page": {
-            "resourceType": "core/franklin/components/block/v1/block/item",
-            "template": {
-              "name": "tabContent",
-              "model": "tabContent"
-            }
-          }
-        }
-      }
     }
   ],
   "models": [
@@ -55,7 +24,7 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "featurePageTitle",
+          "name": "blockTitle",
           "label": "Title",
           "value": ""
         },
@@ -64,18 +33,6 @@
           "valueType": "string",
           "name": "image",
           "label": "Image",
-          "multi": false
-        }
-      ]
-    },
-    {
-      "id": "tablist",
-      "fields": [
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "tabName",
-          "label": "Tab Name",
           "multi": false
         },
         {
@@ -105,55 +62,16 @@
           "valueType": "string",
           "multi": true,
           "condition": { "==": [{ "var": "varType" }, "var2"] }
-        }
-      ]
-    },
-    {
-      "id": "tabContent",
-      "fields": [
-        {
-          "component": "richtext",
-          "name": "heading",
-          "value": "",
-          "label": "Heading",
-          "valueType": "string"
         },
         {
-          "component": "richtext",
-          "name": "description",
-          "value": "",
-          "label": "Description",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "usp",
-          "value": "",
-          "label": "USP",
+          "component": "text",
           "valueType": "string",
-          "multi": true,
-          "condition": { "==": [{ "var": "varType" }, "var2"] }
-        },
-        {
-          "component": "richtext",
-          "name": "uspvalue",
-          "value": "",
-          "label": "USP Value",
-          "valueType": "string",
-          "multi": true,
-          "condition": { "==": [{ "var": "varType" }, "var2"] }
+          "name": "tabName",
+          "label": "Tab Name",
+          "multi": true
         }
       ]
     }
   ],
-  "filters": [
-    {
-      "id": "tab",
-      "components": ["tablist"]
-    },
-    {
-      "id": "tablist",
-      "components": ["tabContent"]
-    }
-  ]
+  "filters": []
 }

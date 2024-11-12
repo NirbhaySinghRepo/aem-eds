@@ -39,17 +39,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "tab",
-    "components": [
-      "tablist"
-    ]
-  },
-  {
-    "id": "tablist",
-    "components": [
-      "tabContent"
-    ]
   }
 ]
