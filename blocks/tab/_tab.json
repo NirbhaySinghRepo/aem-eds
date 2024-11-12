@@ -71,6 +71,7 @@
           "multi": true
         },
         {
+          "component": "container",
           "multi": true,
           "condition": { "==": [{ "var": "varType" }, "var2"] },
           "fields": [

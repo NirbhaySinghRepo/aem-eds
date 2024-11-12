@@ -258,6 +258,7 @@
         "multi": true
       },
       {
+        "component": "container",
         "multi": true,
         "condition": {
           "==": [
