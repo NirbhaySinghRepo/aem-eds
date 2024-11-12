@@ -191,13 +191,6 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "tabName",
-        "label": "Tab Name",
-        "multi": true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
         "name": "blockTitle",
         "label": "Title",
         "value": ""
@@ -226,8 +219,54 @@
         ]
       },
       {
-        "component": "group",
+        "component": "richtext",
+        "name": "usp",
+        "value": "",
+        "label": "USP",
+        "valueType": "string",
         "multi": true,
+        "condition": {
+          "==": [
+            {
+              "var": "varType"
+            },
+            "var2"
+          ]
+        }
+      },
+      {
+        "component": "richtext",
+        "name": "uspvalue",
+        "value": "",
+        "label": "USP Value",
+        "valueType": "string",
+        "multi": true,
+        "condition": {
+          "==": [
+            {
+              "var": "varType"
+            },
+            "var2"
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "tabName",
+        "label": "Tab Name",
+        "multi": true
+      },
+      {
+        "multi": true,
+        "condition": {
+          "==": [
+            {
+              "var": "varType"
+            },
+            "var2"
+          ]
+        },
         "items": [
           {
             "component": "richtext",
