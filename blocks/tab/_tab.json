@@ -68,6 +68,7 @@
           "label": "Variation Type",
           "name": "varType",
           "valueType": "string",
+          "description": "Select Variation 1 for displaying Heading & Description, and select Variation 2 for displaying Features",
           "options": [
             { "name": "Variation 1", "value": "var1" },
             { "name": "Variation 2", "value": "var2" }
