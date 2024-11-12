@@ -259,6 +259,9 @@
       },
       {
         "component": "container",
+        "label": "Container",
+        "name": "container",
+        "valueType": "string",
         "multi": true,
         "condition": {
           "==": [
