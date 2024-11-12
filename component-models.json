@@ -265,7 +265,7 @@
         "value": "",
         "label": "USP",
         "valueType": "string",
-        "description": "Add USP and USP-Value in key-value pair",
+        "description": "Add USP and USP-Value as key-value pair",
         "multi": true,
         "condition": {
           "==": [
@@ -281,7 +281,7 @@
         "name": "uspvalue",
         "value": "",
         "label": "USP Value",
-        "description": "Add USP and USP-Value in key-value pair",
+        "description": "Add USP and USP-Value as key-value pair",
         "valueType": "string",
         "multi": true,
         "condition": {
