@@ -66,7 +66,7 @@
         {
           "component": "select",
           "name": "calculatorType",
-          "label": "Type",
+          "label": "Calculator Type",
           "options": [
             { "name": "default", "value": "" },
             { "name": "primary", "value": "primary" },
