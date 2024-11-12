@@ -150,7 +150,7 @@
     ]
   },
   {
-    "id": "compareModel",
+    "id": "compare",
     "fields": [
       {
         "component": "text",

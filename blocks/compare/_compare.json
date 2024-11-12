@@ -2,15 +2,15 @@
   "definitions": [
     {
       "title": "Vehicle Compare",
-      "id": "compareModel",
+      "id": "compare",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-              "name": "compareModel",
-              "model": "compareModel",
-              "filter": "compareModel"
+              "name": "compare",
+              "model": "compare",
+              "filter": "compare"
             }
           }
         }
@@ -19,7 +19,7 @@
   ],
   "models": [
     {
-      "id": "compareModel",
+      "id": "compare",
       "fields": [
         {
           "component": "text",
