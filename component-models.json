@@ -258,5 +258,31 @@
         "multi": true
       }
     ]
+  },
+  {
+    "id": "var2",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "usp",
+        "value": "",
+        "label": "USP",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "uspvalue",
+        "value": "",
+        "label": "USP Value",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "tabName",
+        "label": "Tab Name",
+        "multi": true
+      }
+    ]
   }
 ]
