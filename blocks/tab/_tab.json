@@ -74,7 +74,7 @@
           "component": "richtext",
           "multi": true,
           "condition": { "==": [{ "var": "varType" }, "var2"] },
-          "items": [
+          "options": [
             {
               "name": "usp",
               "value": "",
