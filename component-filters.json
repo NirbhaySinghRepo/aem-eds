@@ -39,19 +39,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "tab",
-    "components": [
-      "var2"
-    ],
-    "condition": {
-      "==": [
-        {
-          "var": "varType"
-        },
-        "var2"
-      ]
-    }
   }
 ]

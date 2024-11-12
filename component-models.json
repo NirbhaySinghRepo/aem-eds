@@ -191,6 +191,13 @@
       {
         "component": "text",
         "valueType": "string",
+        "name": "tabName",
+        "label": "Tab Name",
+        "multi": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
         "name": "blockTitle",
         "label": "Title",
         "value": ""
@@ -219,11 +226,7 @@
         ]
       },
       {
-        "component": "richtext",
-        "name": "usp",
-        "value": "",
-        "label": "USP",
-        "valueType": "string",
+        "component": "group",
         "multi": true,
         "condition": {
           "==": [
@@ -232,56 +235,23 @@
             },
             "var2"
           ]
-        }
-      },
-      {
-        "component": "richtext",
-        "name": "uspvalue",
-        "value": "",
-        "label": "USP Value",
-        "valueType": "string",
-        "multi": true,
-        "condition": {
-          "==": [
-            {
-              "var": "varType"
-            },
-            "var2"
-          ]
-        }
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "tabName",
-        "label": "Tab Name",
-        "multi": true
-      }
-    ]
-  },
-  {
-    "id": "var2",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "usp",
-        "value": "",
-        "label": "USP",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "uspvalue",
-        "value": "",
-        "label": "USP Value",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "tabName",
-        "label": "Tab Name",
-        "multi": true
+        },
+        "items": [
+          {
+            "component": "richtext",
+            "name": "usp",
+            "value": "",
+            "label": "USP",
+            "valueType": "string"
+          },
+          {
+            "component": "richtext",
+            "name": "uspvalue",
+            "value": "",
+            "label": "USP Value",
+            "valueType": "string"
+          }
+        ]
       }
     ]
   }
