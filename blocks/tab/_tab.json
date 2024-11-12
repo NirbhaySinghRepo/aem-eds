@@ -94,6 +94,7 @@
           "value": "",
           "label": "USP",
           "valueType": "string",
+          "description": "Add USP and USP-Value in key-value pair",
           "multi": true,
           "condition": { "==": [{ "var": "varType" }, "var2"] }
         },
@@ -102,6 +103,7 @@
           "name": "uspvalue",
           "value": "",
           "label": "USP Value",
+          "description": "Add USP and USP-Value in key-value pair",
           "valueType": "string",
           "multi": true,
           "condition": { "==": [{ "var": "varType" }, "var2"] }
