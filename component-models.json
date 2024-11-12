@@ -263,28 +263,36 @@
         "name": "container",
         "valueType": "string",
         "multi": true,
-        "condition": {
-          "==": [
-            {
-              "var": "varType"
-            },
-            "var2"
-          ]
-        },
         "fields": [
           {
             "component": "richtext",
             "name": "usp",
             "value": "",
             "label": "USP",
-            "valueType": "string"
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "varType"
+                },
+                "var2"
+              ]
+            }
           },
           {
             "component": "richtext",
             "name": "uspvalue",
             "value": "",
             "label": "USP Value",
-            "valueType": "string"
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "varType"
+                },
+                "var2"
+              ]
+            }
           }
         ]
       }
