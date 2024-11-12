@@ -46,7 +46,7 @@
           "component": "text",
           "valueType": "string",
           "name": "mothlyLabel",
-          "label": "Monthly EMI",
+          "label": "Monthly",
           "value": ""
         },
         {
