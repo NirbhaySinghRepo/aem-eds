@@ -24,6 +24,13 @@
         {
           "component": "text",
           "valueType": "string",
+          "name": "tabName",
+          "label": "Tab Name",
+          "multi": true
+        },
+        {
+          "component": "text",
+          "valueType": "string",
           "name": "blockTitle",
           "label": "Title",
           "value": ""
@@ -62,38 +69,6 @@
           "valueType": "string",
           "multi": true,
           "condition": { "==": [{ "var": "varType" }, "var2"] }
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "tabName",
-          "label": "Tab Name",
-          "multi": true
-        },
-        {
-          "component": "container",
-          "label": "Container",
-          "name": "container",
-          "valueType": "string",
-          "multi": true,
-          "fields": [
-            {
-              "component": "richtext",
-              "name": "usp",
-              "value": "",
-              "label": "USP",
-              "valueType": "string",
-              "condition": { "==": [{ "var": "varType" }, "var2"] }
-            },
-            {
-              "component": "richtext",
-              "name": "uspvalue",
-              "value": "",
-              "label": "USP Value",
-              "valueType": "string",
-              "condition": { "==": [{ "var": "varType" }, "var2"] }
-            }
-          ]
         }
       ]
     }
