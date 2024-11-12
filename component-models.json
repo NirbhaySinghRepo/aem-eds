@@ -228,14 +228,6 @@
       {
         "component": "group",
         "multi": true,
-        "condition": {
-          "==": [
-            {
-              "var": "varType"
-            },
-            "var2"
-          ]
-        },
         "items": [
           {
             "component": "richtext",
