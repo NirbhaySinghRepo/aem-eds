@@ -60,7 +60,7 @@
           "component": "checkbox-group",
           "valueType": "string[]",
           "name": "compareCheck",
-          "label": "Finance Calculator",
+          "label": "",
           "value": "",
           "options": [{ "name": "Add to compare", "value": "checked" }]
         }
