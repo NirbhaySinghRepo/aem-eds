@@ -50,7 +50,7 @@
           "value": ""
         },
         {
-          "component": "reference",
+          "component": "aem-content",
           "valueType": "string",
           "name": "calculatorLink",
           "label": "Calculator Link",
@@ -83,7 +83,7 @@
           "options": [{ "name": "Add to compare", "value": "checked" }]
         },
         {
-          "component": "reference",
+          "component": "aem-content",
           "name": "ctaLink",
           "label": "CTA Link"
         },
