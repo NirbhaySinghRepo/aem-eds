@@ -107,6 +107,28 @@
           "valueType": "string",
           "multi": true,
           "condition": { "==": [{ "var": "varType" }, "var2"] }
+        },
+        {
+          "component": "container",
+          "label": "Container",
+          "name": "container",
+          "valueType": "string",
+          "collapsible": true,
+          "condition": { "==": [{ "var": "varType" }, "var2"] },
+          "fields": [
+            {
+              "component": "text-input",
+              "label": "Simple Text 1",
+              "name": "text",
+              "valueType": "string"
+            },
+            {
+              "component": "text-input",
+              "label": "Simple Text 2",
+              "name": "text2",
+              "valueType": "string"
+            }
+          ]
         }
       ]
     }

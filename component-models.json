@@ -150,6 +150,59 @@
     ]
   },
   {
+    "id": "compareModel",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "compareTitle",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "msrpLabel",
+        "label": "MSRP",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "mothlyLabel",
+        "label": "Monthly EMI",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "calculatorLabel",
+        "label": "Finance Calculator",
+        "value": ""
+      },
+      {
+        "component": "checkbox-group",
+        "valueType": "string[]",
+        "name": "compareCheck",
+        "label": "Finance Calculator",
+        "value": "",
+        "options": [
+          {
+            "name": "Add to compare",
+            "value": "checked"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
@@ -292,6 +345,35 @@
             "var2"
           ]
         }
+      },
+      {
+        "component": "container",
+        "label": "Container",
+        "name": "container",
+        "valueType": "string",
+        "collapsible": true,
+        "condition": {
+          "==": [
+            {
+              "var": "varType"
+            },
+            "var2"
+          ]
+        },
+        "fields": [
+          {
+            "component": "text-input",
+            "label": "Simple Text 1",
+            "name": "text",
+            "valueType": "string"
+          },
+          {
+            "component": "text-input",
+            "label": "Simple Text 2",
+            "name": "text2",
+            "valueType": "string"
+          }
+        ]
       }
     ]
   }
