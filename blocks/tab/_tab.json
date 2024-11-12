@@ -55,22 +55,21 @@
         {
           "component": "group",
           "multi": true,
+          "condition": { "==": [{ "var": "varType" }, "var2"] },
           "items": [
             {
               "component": "richtext",
               "name": "usp",
               "value": "",
               "label": "USP",
-              "valueType": "string",
-              "condition": { "==": [{ "var": "varType" }, "var2"] }
+              "valueType": "string"
             },
             {
               "component": "richtext",
               "name": "uspvalue",
               "value": "",
               "label": "USP Value",
-              "valueType": "string",
-              "condition": { "==": [{ "var": "varType" }, "var2"] }
+              "valueType": "string"
             }
           ]
         }
