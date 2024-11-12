@@ -50,11 +50,29 @@
           "value": ""
         },
         {
+          "component": "reference",
+          "valueType": "string",
+          "name": "calculatorLink",
+          "label": "Calculator Link",
+          "value": ""
+        },
+        {
           "component": "text",
           "valueType": "string",
-          "name": "calculatorLabel",
-          "label": "Finance Calculator",
+          "name": "calculatorText",
+          "label": "Calculator Text",
           "value": ""
+        },
+        {
+          "component": "select",
+          "name": "calculatorType",
+          "label": "Type",
+          "options": [
+            { "name": "default", "value": "" },
+            { "name": "primary", "value": "primary" },
+            { "name": "secondary", "value": "secondary" },
+            { "name": "tertiary", "value": "tertiary" }
+          ]
         },
         {
           "component": "checkbox-group",
@@ -65,19 +83,19 @@
           "options": [{ "name": "Add to compare", "value": "checked" }]
         },
         {
-          "component": "aem-content",
-          "name": "link",
-          "label": "Link"
+          "component": "reference",
+          "name": "ctaLink",
+          "label": "CTA Link"
         },
         {
           "component": "text",
-          "name": "linkText",
-          "label": "Text"
+          "name": "ctaText",
+          "label": "CTA Text"
         },
         {
           "component": "select",
-          "name": "linkType",
-          "label": "Type",
+          "name": "ctaType",
+          "label": "CTA Type",
           "options": [
             { "name": "default", "value": "" },
             { "name": "primary", "value": "primary" },
