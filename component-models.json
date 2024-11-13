@@ -376,6 +376,67 @@
         }
       },
       {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "ctaLink",
+        "label": "CTA Link",
+        "value": "",
+        "condition": {
+          "==": [
+            {
+              "var": "varType"
+            },
+            "var1"
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "ctaText",
+        "label": "CTA Text",
+        "value": "",
+        "condition": {
+          "==": [
+            {
+              "var": "varType"
+            },
+            "var1"
+          ]
+        }
+      },
+      {
+        "component": "select",
+        "name": "ctaType",
+        "label": "CTA Type",
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          },
+          {
+            "name": "tertiary",
+            "value": "tertiary"
+          }
+        ],
+        "condition": {
+          "==": [
+            {
+              "var": "varType"
+            },
+            "var1"
+          ]
+        }
+      },
+      {
         "component": "richtext",
         "name": "usp",
         "value": "",
