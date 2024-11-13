@@ -181,6 +181,20 @@
         "value": ""
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "featureLabel",
+        "label": "Feature label",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "showLabel",
+        "label": "Show More label",
+        "value": ""
+      },
+      {
         "component": "aem-content",
         "valueType": "string",
         "name": "calculatorLink",
