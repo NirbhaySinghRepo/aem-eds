@@ -502,12 +502,12 @@
         },
         "fields": [
           {
-            "name": "usp",
+            "name": "usp1",
             "label": "USP",
             "value": ""
           },
           {
-            "name": "uspvalue",
+            "name": "uspvalue1",
             "label": "USP Value",
             "value": ""
           }
