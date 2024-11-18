@@ -321,7 +321,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "blockTitle",
+        "name": "mainTabTitle",
         "label": "Title",
         "value": ""
       }
@@ -347,7 +347,7 @@
       {
         "component": "select",
         "label": "Variation Type",
-        "name": "varType",
+        "name": "selectTabType",
         "valueType": "string",
         "description": "Select Variation 1 for displaying Heading & Description, and select Variation 2 for displaying Features",
         "options": [
@@ -370,7 +370,7 @@
         "condition": {
           "==": [
             {
-              "var": "varType"
+              "var": "selectTabType"
             },
             "var1"
           ]
@@ -383,7 +383,7 @@
         "condition": {
           "==": [
             {
-              "var": "varType"
+              "var": "selectTabType"
             },
             "var1"
           ]
@@ -392,13 +392,13 @@
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "ctaLink",
+        "name": "ctaTabLink",
         "label": "CTA Link",
         "value": "",
         "condition": {
           "==": [
             {
-              "var": "varType"
+              "var": "selectTabType"
             },
             "var1"
           ]
@@ -407,13 +407,13 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "ctaText",
+        "name": "ctaTabText",
         "label": "CTA Text",
         "value": "",
         "condition": {
           "==": [
             {
-              "var": "varType"
+              "var": "selectTabType"
             },
             "var1"
           ]
@@ -421,7 +421,7 @@
       },
       {
         "component": "select",
-        "name": "ctaType",
+        "name": "ctaTabType",
         "label": "CTA Type",
         "options": [
           {
@@ -444,7 +444,7 @@
         "condition": {
           "==": [
             {
-              "var": "varType"
+              "var": "selectTabType"
             },
             "var1"
           ]
@@ -461,7 +461,7 @@
         "condition": {
           "==": [
             {
-              "var": "varType"
+              "var": "selectTabType"
             },
             "var2"
           ]
@@ -478,7 +478,7 @@
         "condition": {
           "==": [
             {
-              "var": "varType"
+              "var": "selectTabType"
             },
             "var2"
           ]
