@@ -469,7 +469,7 @@
       },
       {
         "component": "richtext",
-        "name": "uspvalue",
+        "name": "uspValue",
         "value": "",
         "label": "USP Value",
         "description": "Add USP and USP-Value as key-value pair",
@@ -483,35 +483,6 @@
             "var2"
           ]
         }
-      },
-      {
-        "component": "richtext",
-        "name": "usp",
-        "value": "",
-        "label": "USP and USP Value",
-        "valueType": "string",
-        "description": "Add USP and USP-Value as key-value pair",
-        "multi": true,
-        "condition": {
-          "==": [
-            {
-              "var": "varType"
-            },
-            "var2"
-          ]
-        },
-        "fields": [
-          {
-            "name": "usp1",
-            "label": "USP",
-            "value": ""
-          },
-          {
-            "name": "uspvalue1",
-            "label": "USP Value",
-            "value": ""
-          }
-        ]
       }
     ]
   }
