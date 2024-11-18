@@ -135,28 +135,6 @@
           "valueType": "string",
           "multi": true,
           "condition": { "==": [{ "var": "selectTabType" }, "var2"] }
-        },
-        {
-          "multi": true,
-          "condition": { "==": [{ "var": "selectTabType" }, "var2"] },
-          "options": [
-            {
-              "component": "text",
-              "name": "usp1",
-              "value": "",
-              "label": "USP1",
-              "description": "Add USP and USP-Value as key-value pair",
-              "valueType": "string"
-            },
-            {
-              "component": "text",
-              "name": "usp1Value",
-              "value": "",
-              "label": "USP1 Value",
-              "description": "Add USP and USP-Value as key-value pair",
-              "valueType": "string"
-            }
-          ]
         }
       ]
     }
