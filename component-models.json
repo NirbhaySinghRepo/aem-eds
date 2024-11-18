@@ -485,7 +485,6 @@
         }
       },
       {
-        "component": "text",
         "multi": true,
         "condition": {
           "==": [
@@ -495,8 +494,9 @@
             "var2"
           ]
         },
-        "fields": [
+        "options": [
           {
+            "component": "text",
             "name": "usp1",
             "value": "",
             "label": "USP1",
@@ -504,6 +504,7 @@
             "valueType": "string"
           },
           {
+            "component": "text",
             "name": "usp1Value",
             "value": "",
             "label": "USP1 Value",
