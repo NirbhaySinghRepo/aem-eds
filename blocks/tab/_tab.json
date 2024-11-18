@@ -117,7 +117,7 @@
           "condition": { "==": [{ "var": "varType" }, "var1"] }
         },
         {
-          "component": "richtext",
+          "component": "text",
           "name": "usp",
           "value": "",
           "label": "USP",
@@ -127,7 +127,7 @@
           "condition": { "==": [{ "var": "varType" }, "var2"] }
         },
         {
-          "component": "richtext",
+          "component": "text",
           "name": "uspValue",
           "value": "",
           "label": "USP Value",
