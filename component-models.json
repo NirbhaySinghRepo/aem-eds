@@ -326,18 +326,16 @@
         "value": ""
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "tabName",
+        "component": "tab",
         "label": "Tab Name",
-        "multi": false
+        "name": "tabName",
+        "multi": true
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "tabId",
+        "component": "text-input",
         "label": "Tab ID",
-        "multi": false
+        "name": "tabID",
+        "valueType": "string"
       }
     ]
   },
@@ -354,8 +352,8 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "varId",
-        "label": "Variation ID",
+        "name": "varTabID",
+        "label": "Tab ID",
         "multi": false
       },
       {
