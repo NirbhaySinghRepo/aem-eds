@@ -174,7 +174,7 @@
           }
         },
         {
-          "title": "Tab",
+          "title": "GB008-Tabs",
           "id": "tab",
           "plugins": {
             "xwalk": {

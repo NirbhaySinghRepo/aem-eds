@@ -483,22 +483,6 @@
             "var2"
           ]
         }
-      },
-      {
-        "component": "text",
-        "label": "Text Group",
-        "name": "usp",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Option 1",
-            "value": ""
-          },
-          {
-            "name": "Option 2",
-            "value": ""
-          }
-        ]
       }
     ]
   }
