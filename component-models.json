@@ -324,12 +324,7 @@
         "name": "mainTabTitle",
         "label": "Title",
         "value": ""
-      }
-    ]
-  },
-  {
-    "id": "tabContent",
-    "fields": [
+      },
       {
         "component": "text",
         "valueType": "string",
@@ -338,10 +333,29 @@
         "multi": false
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "tabId",
+        "label": "Tab ID",
+        "multi": false
+      }
+    ]
+  },
+  {
+    "id": "tabContent",
+    "fields": [
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "varId",
+        "label": "Variation ID",
         "multi": false
       },
       {
