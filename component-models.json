@@ -322,7 +322,7 @@
         "component": "text",
         "valueType": "string",
         "name": "mediaHeading",
-        "label": "Title",
+        "label": "Heading",
         "value": ""
       },
       {
