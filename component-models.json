@@ -316,6 +316,47 @@
     ]
   },
   {
+    "id": "media-carousel",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "mediaHeading",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "mediaDescription",
+        "label": "Description",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": true
+      },
+      {
+        "component": "select",
+        "name": "transitionType",
+        "label": "Transition Type",
+        "options": [
+          {
+            "name": "fade",
+            "value": "fade"
+          },
+          {
+            "name": "slide",
+            "value": "slide"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "tab",
     "fields": [
       {
@@ -324,18 +365,6 @@
         "name": "mainTabTitle",
         "label": "Title",
         "value": ""
-      },
-      {
-        "component": "tab",
-        "label": "Tab Name",
-        "name": "tabName",
-        "multi": true
-      },
-      {
-        "component": "text-input",
-        "label": "Tab ID",
-        "name": "tabID",
-        "valueType": "string"
       }
     ]
   },
@@ -343,17 +372,17 @@
     "id": "tabContent",
     "fields": [
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "tabName",
+        "label": "Tab Name",
+        "multi": false
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "varTabID",
-        "label": "Tab ID",
         "multi": false
       },
       {
