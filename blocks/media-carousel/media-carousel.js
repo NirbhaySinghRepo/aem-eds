@@ -1,7 +1,7 @@
-export default function decorate(block) {
-  const title = block.querySelector(".title")?.innerHTML || "";
-  const description = block.querySelector(".description")?.innerHTML || "";
-  const images = [...block.querySelectorAll(".images img")];
+export default async function decorate(block) {
+  const title = block.querySelector(".mediaHeading")?.innerHTML || "";
+  const description = block.querySelector(".mediaDescription")?.innerHTML || "";
+  const images = [...block.querySelectorAll(".image img")];
 
   let currentIndex = 0;
 
