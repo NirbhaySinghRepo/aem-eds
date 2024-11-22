@@ -40,6 +40,8 @@
           "valueType": "string",
           "name": "msrpLabel",
           "label": "MSRP",
+          "description": "desc",
+          "placeholder": "placeholder",
           "value": ""
         },
         {
