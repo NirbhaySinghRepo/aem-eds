@@ -1,8 +1,8 @@
 {
   "definitions": [
     {
-      "title": "Vehicle Compare",
-      "id": "compare",
+      "title": "GB010-GradeCarousel",
+      "id": "grade-carousel",
       "plugins": {
         "xwalk": {
           "page": {
@@ -26,6 +26,13 @@
           "valueType": "string",
           "name": "cardTitle",
           "label": "Compare Card Title",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "pageLabel",
+          "label": "Pagination label",
           "value": ""
         },
         {

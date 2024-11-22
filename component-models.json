@@ -150,6 +150,16 @@
     ]
   },
   {
+    "id": "fragment",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "reference",
+        "label": "Reference"
+      }
+    ]
+  },
+  {
     "id": "compare",
     "fields": [
       {
@@ -157,6 +167,13 @@
         "valueType": "string",
         "name": "cardTitle",
         "label": "Compare Card Title",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "pageLabel",
+        "label": "Pagination label",
         "value": ""
       },
       {
@@ -273,16 +290,6 @@
             "value": "tertiary"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "fragment",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "reference",
-        "label": "Reference"
       }
     ]
   },
