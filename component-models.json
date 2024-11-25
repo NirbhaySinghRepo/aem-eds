@@ -177,7 +177,7 @@
         "value": ""
       },
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
         "name": "msrpLabel",
         "label": "MSRP",
@@ -185,10 +185,26 @@
         "value": ""
       },
       {
-        "component": "text",
+        "component": "richtext",
+        "valueType": "string",
+        "name": "msrpLabelTip",
+        "label": "MSRP Tool Tip",
+        "description": "Add MSRP data here",
+        "value": ""
+      },
+      {
+        "component": "richtext",
         "valueType": "string",
         "name": "mothlyLabel",
         "label": "Monthly",
+        "description": "Add Monthly data here",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "mothlyLabelTip",
+        "label": "Monthly Tool Tip",
         "description": "Add Monthly data here",
         "value": ""
       },
