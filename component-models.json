@@ -160,7 +160,7 @@
     ]
   },
   {
-    "id": "compare",
+    "id": "grade-carousel",
     "fields": [
       {
         "component": "text",
@@ -181,8 +181,7 @@
         "valueType": "string",
         "name": "msrpLabel",
         "label": "MSRP",
-        "description": "desc",
-        "placeholder": "placeholder",
+        "description": "Add MSRP data here",
         "value": ""
       },
       {
@@ -190,6 +189,7 @@
         "valueType": "string",
         "name": "mothlyLabel",
         "label": "Monthly",
+        "description": "Add Monthly data here",
         "value": ""
       },
       {
@@ -202,8 +202,15 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "showLabel",
+        "name": "showMoreLabel",
         "label": "Show More label",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "showLessLabel",
+        "label": "Show Less label",
         "value": ""
       },
       {
@@ -228,7 +235,7 @@
         "value": ""
       },
       {
-        "component": "reference",
+        "component": "aem-content",
         "name": "ctaLink",
         "label": "Card CTA Link"
       },
@@ -261,19 +268,19 @@
         ]
       },
       {
-        "component": "reference",
+        "component": "aem-content",
         "name": "compareCTALink",
         "label": "Compare CTA Link"
       },
       {
         "component": "text",
         "name": "compareCTAText",
-        "label": "Card CTA Text"
+        "label": "Compare CTA Text"
       },
       {
         "component": "select",
         "name": "compareCTAType",
-        "label": "Card CTA Type",
+        "label": "Compare CTA Type",
         "options": [
           {
             "name": "default",
