@@ -40,7 +40,6 @@
           "valueType": "string",
           "name": "msrpLabel",
           "label": "MSRP",
-          "description": "Add MSRP data here",
           "value": ""
         },
         {
@@ -48,7 +47,6 @@
           "valueType": "string",
           "name": "msrpLabelTip",
           "label": "MSRP Tool Tip",
-          "description": "Add MSRP data here",
           "value": ""
         },
         {
@@ -56,7 +54,6 @@
           "valueType": "string",
           "name": "mothlyLabel",
           "label": "Monthly",
-          "description": "Add Monthly data here",
           "value": ""
         },
         {
@@ -64,7 +61,6 @@
           "valueType": "string",
           "name": "mothlyLabelTip",
           "label": "Monthly Tool Tip",
-          "description": "Add Monthly data here",
           "value": ""
         },
         {

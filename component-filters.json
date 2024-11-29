@@ -43,6 +43,12 @@
     ]
   },
   {
+    "id": "offers",
+    "components": [
+      "offersContent"
+    ]
+  },
+  {
     "id": "tab",
     "components": [
       "tabContent"
