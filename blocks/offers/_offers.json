@@ -17,16 +17,16 @@
       }
     },
     {
-      "title": "offersContent",
-      "id": "",
+      "title": "Offers Content",
+      "id": "offers-content",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
-              "name": "offersContent",
-              "model": "offersContent",
-              "filter": "offersContent"
+              "name": "offers-content",
+              "model": "offers-content",
+              "filter": "offers-content"
             }
           }
         }
@@ -35,7 +35,7 @@
   ],
   "models": [
     {
-      "id": "offersContent",
+      "id": "offers-content",
       "fields": [
         {
           "component": "reference",
@@ -473,7 +473,7 @@
   "filters": [
     {
       "id": "offers",
-      "components": ["offersContent"]
+      "components": ["offers-content"]
     }
   ]
 }
