@@ -211,7 +211,7 @@
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "coffersContentore/franklin/components/block/v1/block/item",
+                "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "offersContent",
                   "model": "offersContent",
