@@ -356,14 +356,6 @@
         "name": "description",
         "label": "Description",
         "value": ""
-      },
-      {
-        "component": "aem-content",
-        "valueType": "string",
-        "name": "imageMedia",
-        "label": "ImageMedia",
-        "rootrootPath": "/content/dam",
-        "multi": true
       }
     ]
   },
