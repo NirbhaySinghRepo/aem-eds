@@ -363,7 +363,7 @@
         "name": "imageMedia",
         "label": "ImageMedia",
         "rootrootPath": "/content/dam",
-        "multi": false
+        "multi": true
       }
     ]
   },
