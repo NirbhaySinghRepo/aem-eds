@@ -15,6 +15,22 @@
           }
         }
       }
+    },
+    {
+      "title": "Add Image",
+      "id": "media-image",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "media-image",
+              "model": "media-image",
+              "filter": "media-image"
+            }
+          }
+        }
+      }
     }
   ],
   "models": [
@@ -24,17 +40,22 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "mediaHeading",
+          "name": "heading",
           "label": "Heading",
           "value": ""
         },
         {
           "component": "richtext",
           "valueType": "string",
-          "name": "mediaDescription",
+          "name": "description",
           "label": "Description",
           "value": ""
-        },
+        }
+      ]
+    },
+    {
+      "id": "media-image",
+      "fields": [
         {
           "component": "reference",
           "valueType": "string",
@@ -45,5 +66,10 @@
       ]
     }
   ],
-  "filters": []
+  "filters": [
+    {
+      "id": "mediacarousel",
+      "components": ["media-image"]
+    }
+  ]
 }

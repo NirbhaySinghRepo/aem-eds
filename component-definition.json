@@ -190,6 +190,22 @@
           }
         },
         {
+          "title": "Add Image",
+          "id": "media-image",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "media-image",
+                  "model": "media-image",
+                  "filter": "media-image"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "GB005-Offers",
           "id": "offers",
           "plugins": {

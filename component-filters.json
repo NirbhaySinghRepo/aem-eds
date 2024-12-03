@@ -44,6 +44,12 @@
     ]
   },
   {
+    "id": "mediacarousel",
+    "components": [
+      "media-image"
+    ]
+  },
+  {
     "id": "offers",
     "components": [
       "offers-content"

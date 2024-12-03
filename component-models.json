@@ -346,17 +346,22 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "mediaHeading",
+        "name": "heading",
         "label": "Heading",
         "value": ""
       },
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "mediaDescription",
+        "name": "description",
         "label": "Description",
         "value": ""
-      },
+      }
+    ]
+  },
+  {
+    "id": "media-image",
+    "fields": [
       {
         "component": "reference",
         "valueType": "string",
