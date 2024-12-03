@@ -56,7 +56,8 @@
           "valueType": "string",
           "name": "image",
           "label": "Image",
-          "multi": true
+          "rootrootPath": "/content/dam",
+          "multi": false
         }
       ]
     },
