@@ -175,15 +175,15 @@
         },
         {
           "title": "GB009-MediaCarousel",
-          "id": "media-carousel",
+          "id": "mediacarousel",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "media-carousel",
-                  "model": "media-carousel",
-                  "filter": "media-carousel"
+                  "name": "mediacarousel",
+                  "model": "mediacarousel",
+                  "filter": "mediacarousel"
                 }
               }
             }

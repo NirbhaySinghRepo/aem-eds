@@ -341,7 +341,7 @@
     ]
   },
   {
-    "id": "media-carousel",
+    "id": "mediacarousel",
     "fields": [
       {
         "component": "text",
@@ -358,26 +358,11 @@
         "value": ""
       },
       {
-        "component": "aem-content",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
         "multi": true
-      },
-      {
-        "component": "select",
-        "name": "transitionType",
-        "label": "Transition Type",
-        "options": [
-          {
-            "name": "fade",
-            "value": "fade"
-          },
-          {
-            "name": "slide",
-            "value": "slide"
-          }
-        ]
       }
     ]
   },
