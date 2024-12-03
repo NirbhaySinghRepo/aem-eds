@@ -2,7 +2,7 @@
   "definitions": [
     {
       "title": "GB009-MediaCarousel",
-      "id": "mediacarousel",
+      "id": "media-carousel",
       "plugins": {
         "xwalk": {
           "page": {
@@ -35,7 +35,7 @@
   ],
   "models": [
     {
-      "id": "mediacarousel",
+      "id": "media-carousel",
       "fields": [
         {
           "component": "text",
@@ -50,6 +50,13 @@
           "name": "description",
           "label": "Description",
           "value": ""
+        },
+        {
+          "component": "aem-content",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": true
         }
       ]
     },
@@ -67,7 +74,7 @@
   ],
   "filters": [
     {
-      "id": "mediacarousel",
+      "id": "media-carousel",
       "components": ["media-image"]
     }
   ]

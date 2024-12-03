@@ -175,7 +175,7 @@
         },
         {
           "title": "GB009-MediaCarousel",
-          "id": "mediacarousel",
+          "id": "media-carousel",
           "plugins": {
             "xwalk": {
               "page": {

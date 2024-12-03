@@ -44,7 +44,7 @@
     ]
   },
   {
-    "id": "mediacarousel",
+    "id": "media-carousel",
     "components": [
       "media-image"
     ]
