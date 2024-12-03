@@ -360,8 +360,8 @@
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "image",
-        "label": "Image",
+        "name": "imageMedia",
+        "label": "ImageMedia",
         "rootrootPath": "/content/dam",
         "multi": false
       }
