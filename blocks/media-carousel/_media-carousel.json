@@ -50,6 +50,17 @@
           "name": "description",
           "label": "Description",
           "value": ""
+        },
+        {
+          "id": "media-image",
+          "fields": [
+            {
+              "component": "reference",
+              "valueType": "string[]",
+              "name": "image",
+              "label": "Image"
+            }
+          ]
         }
       ]
     },
