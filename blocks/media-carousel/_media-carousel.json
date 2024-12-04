@@ -56,7 +56,7 @@
           "fields": [
             {
               "component": "reference",
-              "valueType": "string[]",
+              "valueType": "string",
               "name": "image",
               "label": "Image",
               "multi": true
