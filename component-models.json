@@ -358,16 +358,11 @@
         "value": ""
       },
       {
-        "id": "media-image",
-        "fields": [
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "image",
-            "label": "Image",
-            "multi": true
-          }
-        ]
+        "component": "reference",
+        "valueType": "string[]",
+        "name": "mediaImage",
+        "label": "Image",
+        "multi": true
       }
     ]
   },
