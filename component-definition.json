@@ -238,6 +238,22 @@
           }
         },
         {
+          "title": "GB015-SubpageHeadline",
+          "id": "subpage-headline",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "subpage-headline",
+                  "model": "subpage-headline",
+                  "filter": "subpage-headline"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "GB008-Tabs",
           "id": "tab",
           "plugins": {

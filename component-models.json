@@ -813,6 +813,25 @@
     ]
   },
   {
+    "id": "subpage-headline",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "description",
+        "label": "Description",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "tab",
     "fields": [
       {
