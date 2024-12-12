@@ -20,7 +20,8 @@
       "grade-carousel",
       "media-carousel",
       "offers",
-      "subpage-headline"
+      "subpage-headline",
+      "cookie"
     ]
   },
   {
@@ -44,6 +45,7 @@
       "title"
     ]
   },
+  {},
   {
     "id": "media-carousel",
     "components": [
