@@ -33,12 +33,6 @@ function getCookie(name) {
   return null;
 }
 
-// Function to load JSON configuration
-async function loadJSONConfig(url) {
-  const response = await fetch(url);
-  return response.json();
-}
-
 // Function to create and display the cookie consent banner
 function displayCookieConsent(config) {
   const consentBanner = document.createElement("div");
@@ -86,7 +80,7 @@ function displayCookieConsent(config) {
 async function handleCookieConsent() {
   const consent = getCookie("userConsent");
   if (consent === null) {
-    const config = await loadJSONConfig("/blocks/cookie/_cookie.json"); // Adjust the path as necessary
+    //const config = await loadJSONConfig("/blocks/cookie/_cookie.json"); // Adjust the path as necessary
     displayCookieConsent(config);
   }
 }
