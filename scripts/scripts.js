@@ -33,18 +33,61 @@ function getCookie(name) {
   return null;
 }
 
-// Function to check and set default cookies
-function setDefaultCookies() {
-  const defaultCookies = {
-    userConsent: "false",
-    sessionId: "defaultSessionId",
-    theme: "light",
+// Function to load JSON configuration
+async function loadJSONConfig(url) {
+  const response = await fetch(url);
+  return response.json();
+}
+
+// Function to create and display the cookie consent banner
+function displayCookieConsent(config) {
+  const consentBanner = document.createElement("div");
+  consentBanner.id = "cookie-consent-banner";
+  consentBanner.style.position = "fixed";
+  consentBanner.style.bottom = "0";
+  consentBanner.style.width = "100%";
+  consentBanner.style.backgroundColor = "#f9f9f9";
+  consentBanner.style.padding = "10px";
+  consentBanner.style.boxShadow = "0 -2px 5px rgba(0, 0, 0, 0.1)";
+  consentBanner.style.display = "flex";
+  consentBanner.style.justifyContent = "space-between";
+  consentBanner.style.alignItems = "center";
+
+  const description = document.createElement("p");
+  description.innerText =
+    config.models[0].fields.find((field) => field.name === "description")
+      .value || "We use cookies to enhance your experience.";
+
+  const agreeButton = document.createElement("button");
+  agreeButton.innerText =
+    config.models[0].fields.find((field) => field.name === "agreeLabel")
+      .value || "Accept";
+  agreeButton.onclick = () => {
+    setCookie("userConsent", "true", 365);
+    document.body.removeChild(consentBanner);
   };
 
-  for (const [name, value] of Object.entries(defaultCookies)) {
-    if (!getCookie(name)) {
-      setCookie(name, value, 30); // Set cookie for 30 days
-    }
+  const declineButton = document.createElement("button");
+  declineButton.innerText =
+    config.models[0].fields.find((field) => field.name === "declineLabel")
+      .value || "Decline";
+  declineButton.onclick = () => {
+    setCookie("userConsent", "false", 365);
+    document.body.removeChild(consentBanner);
+  };
+
+  consentBanner.appendChild(description);
+  consentBanner.appendChild(agreeButton);
+  consentBanner.appendChild(declineButton);
+  document.body.appendChild(consentBanner);
+}
+
+// Function to check and handle cookie consent
+async function handleCookieConsent() {
+  const consent = getCookie("userConsent");
+  if (consent === null) {
+    const config = await loadJSONConfig("/blocks/cookie/_cookie.json"); // Adjust the path as necessary
+    displayCookieConsent(config);
   }
 }
 
@@ -184,7 +227,7 @@ function loadDelayed() {
 async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
-  setDefaultCookies();
+  handleCookieConsent();
   loadDelayed();
 }
 

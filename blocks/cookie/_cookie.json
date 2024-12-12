@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "cookie",
+      "title": "Cookie",
       "id": "cookie",
       "plugins": {
         "xwalk": {
@@ -38,8 +38,8 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "Agree CTA label",
-          "label": "Heading",
+          "name": "agreeLabel",
+          "label": "Agree CTA label",
           "value": ""
         },
         {
@@ -52,8 +52,8 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "Decline CTA label",
-          "label": "Heading",
+          "name": "declineLabel",
+          "label": "Decline CTA label",
           "value": ""
         },
         {

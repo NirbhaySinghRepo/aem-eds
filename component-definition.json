@@ -128,7 +128,7 @@
           }
         },
         {
-          "title": "cookie",
+          "title": "Cookie",
           "id": "cookie",
           "plugins": {
             "xwalk": {
