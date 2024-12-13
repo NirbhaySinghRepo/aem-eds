@@ -1,5 +1,5 @@
 // Function to set a cookie
-function setCookie(name, value, days) {
+export function setCookie(name, value, days) {
   const date = new Date();
   date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
   const expires = "expires=" + date.toUTCString();
@@ -7,7 +7,7 @@ function setCookie(name, value, days) {
 }
 
 // Function to get a cookie by name
-function getCookie(name) {
+export function getCookie(name) {
   const nameEQ = name + "=";
   const ca = document.cookie.split(";");
   for (let i = 0; i < ca.length; i++) {
@@ -19,7 +19,7 @@ function getCookie(name) {
 }
 
 // Function to create and display the cookie consent banner
-function displayCookieConsent() {
+export function displayCookieConsent() {
   const consentBanner = document.createElement("div");
   consentBanner.id = "cookie-consent-banner";
   consentBanner.style.position = "fixed";
@@ -68,7 +68,7 @@ function displayCookieConsent() {
 }
 
 // Function to check and handle cookie consent
-async function handleCookieConsent() {
+export async function handleCookieConsent() {
   const consent = getCookie("userConsent");
   if (consent === null) {
     displayCookieConsent();
