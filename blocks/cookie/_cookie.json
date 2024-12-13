@@ -62,6 +62,13 @@
           "name": "ctaDecLink",
           "label": "Decline CTA Link",
           "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "closeLabel",
+          "label": "Close Label",
+          "value": ""
         }
       ]
     }
