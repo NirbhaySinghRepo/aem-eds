@@ -44,7 +44,7 @@ function displayCookieConsent() {
   consentBanner.style.padding = "10px";
   consentBanner.style.boxShadow = "0 -2px 5px rgba(0, 0, 0, 0.1)";
   consentBanner.style.display = "flex";
-  consentBanner.style.justifyContent = "space-between";
+  consentBanner.style.justifyContent = "space-evenly";
   consentBanner.style.alignItems = "center";
 
   const description = document.createElement("p");
@@ -63,9 +63,21 @@ function displayCookieConsent() {
     document.body.removeChild(consentBanner);
   };
 
+  const closeButton = document.createElement("button");
+  closeButton.innerText = "Close";
+  closeButton.style.background = "none";
+  closeButton.style.border = "none";
+  closeButton.style.fontSize = "16px";
+  closeButton.style.cursor = "pointer";
+  closeButton.style.marginLeft = "10px";
+  closeButton.onclick = () => {
+    document.body.removeChild(consentBanner);
+  };
+
   consentBanner.appendChild(description);
   consentBanner.appendChild(agreeButton);
   consentBanner.appendChild(declineButton);
+  consentBanner.appendChild(closeButton);
   document.body.appendChild(consentBanner);
 }
 
