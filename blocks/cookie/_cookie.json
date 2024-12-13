@@ -39,28 +39,21 @@
           "component": "text",
           "valueType": "string",
           "name": "agreeLabel",
-          "label": "Agree CTA label",
+          "label": "Agree label",
           "value": ""
         },
         {
-          "component": "aem-content",
+          "component": "text",
           "valueType": "string",
-          "name": "ctaAgreeLink",
-          "label": "Agree CTA Link",
+          "name": "preferenceLabel",
+          "label": "Preference label",
           "value": ""
         },
         {
           "component": "text",
           "valueType": "string",
           "name": "declineLabel",
-          "label": "Decline CTA label",
-          "value": ""
-        },
-        {
-          "component": "aem-content",
-          "valueType": "string",
-          "name": "ctaDecLink",
-          "label": "Decline CTA Link",
+          "label": "Decline label",
           "value": ""
         },
         {
