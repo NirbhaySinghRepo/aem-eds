@@ -70,6 +70,7 @@ function displayCookieConsent() {
   closeButton.style.fontSize = "16px";
   closeButton.style.cursor = "pointer";
   closeButton.style.marginLeft = "10px";
+  closeButton.style.color = "black";
   closeButton.onclick = () => {
     document.body.removeChild(consentBanner);
   };
