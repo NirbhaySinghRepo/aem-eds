@@ -13,12 +13,7 @@ import {
   loadCSS,
 } from "./aem.js";
 
-import {
-  handleCookieConsent,
-  displayCookieConsent,
-  getCookie,
-  setCookie,
-} from "./cookie.js";
+import { handleCookieConsent } from "./cookie.js";
 
 /**
  * Moves all the attributes from a given elmenet to another given element.
