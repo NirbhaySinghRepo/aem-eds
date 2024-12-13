@@ -128,7 +128,7 @@
           }
         },
         {
-          "title": "Cookie",
+          "title": "GB016-Cookie",
           "id": "cookie",
           "plugins": {
             "xwalk": {
