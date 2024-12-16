@@ -59,8 +59,15 @@
         {
           "component": "reference",
           "valueType": "string",
-          "name": "image",
-          "label": "Image",
+          "name": "imageMobile",
+          "label": "Image for Mobile (Aspect ratio 1:1)",
+          "multi": false
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "imageOtherDevice",
+          "label": "Image for other Device (Aspect ratio 16:9)",
           "multi": false
         },
         {
