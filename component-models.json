@@ -202,43 +202,60 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "rightLabel",
-        "label": "Right Label",
+        "name": "navLabel1",
+        "label": "Label-1",
         "value": ""
+      },
+      {
+        "component": "select",
+        "label": "Mobile Icon",
+        "name": "selectTabType",
+        "valueType": "reference",
+        "description": "Select suitable size for mobile icon",
+        "options": [
+          {
+            "name": "Icon Min Size",
+            "value": "minIcon"
+          },
+          {
+            "name": "Icon Max Size",
+            "value": "maxIcon"
+          }
+        ]
       },
       {
         "component": "reference",
         "valueType": "string[]",
-        "name": "rightIcon",
-        "label": "Right Icon",
+        "name": "icon1",
+        "label": "Icon-1",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "middleLabel",
-        "label": "Middle Label",
+        "name": "navLabel2",
+        "label": "Label-2",
         "value": ""
       },
       {
         "component": "reference",
         "valueType": "string[]",
-        "name": "middleIcon",
-        "label": "Middle Icon",
+        "name": "icon2",
+        "label": "Icon-2",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "leftLabel",
-        "label": "Left Label",
+        "name": "navLabel3",
+        "label": "Label-3",
         "value": ""
       },
       {
         "component": "reference",
         "valueType": "string[]",
-        "name": "leftIcon",
-        "label": "Left Icon",
+        "name": "icon3",
+        "label": "Icon-3",
         "multi": false
       }
     ]
