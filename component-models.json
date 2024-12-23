@@ -207,32 +207,29 @@
         "value": ""
       },
       {
-        "component": "reference",
-        "valueType": "string[]",
-        "name": "mobileIcon1Min",
-        "label": "Mobile Icon Min (320px)",
-        "multi": false
-      },
-      {
-        "component": "reference",
-        "valueType": "string[]",
-        "name": "mobileIcon1Max",
-        "label": "Mobile Icon Max (767px)",
-        "multi": false
-      },
-      {
-        "component": "reference",
-        "valueType": "string[]",
-        "name": "TabletIcon1Min",
-        "label": "Tablet Icon Min (768px)",
-        "multi": false
-      },
-      {
-        "component": "reference",
-        "valueType": "string[]",
-        "name": "TabletIcon1Max",
-        "label": "Tablet Icon Max (1023px)",
-        "multi": false
+        "component": "select",
+        "label": "Select device for Icon ",
+        "name": "selectTabType",
+        "valueType": "string",
+        "description": "Select device and respective pixels for label",
+        "options": [
+          {
+            "name": "Mobile Icon Min (320px)",
+            "value": "mobileIconMin"
+          },
+          {
+            "name": "Mobile Icon Max (767px)",
+            "value": "mobileIconMax"
+          },
+          {
+            "name": "Tablet Icon Min (768px)",
+            "value": "TabletIconMin"
+          },
+          {
+            "name": "Tablet Icon Max (1023px)",
+            "value": "TabletIconMax"
+          }
+        ]
       }
     ]
   },
