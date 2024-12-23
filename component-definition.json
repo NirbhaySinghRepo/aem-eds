@@ -160,6 +160,22 @@
           }
         },
         {
+          "title": "Add Label",
+          "id": "floatingNavContent",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "floatingNavContent",
+                  "model": "floatingNavContent",
+                  "filter": "floatingNavContent"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Fragment",
           "id": "fragment",
           "plugins": {

@@ -15,67 +15,70 @@
           }
         }
       }
+    },
+    {
+      "title": "Add Label",
+      "id": "floatingNavContent",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "floatingNavContent",
+              "model": "floatingNavContent",
+              "filter": "floatingNavContent"
+            }
+          }
+        }
+      }
     }
   ],
   "models": [
     {
-      "id": "floating-navigation",
+      "id": "floatingNavContent",
       "fields": [
         {
           "component": "text",
           "valueType": "string",
-          "name": "navLabel1",
-          "label": "Label-1",
+          "name": "navLabel",
+          "label": "Label",
           "value": ""
-        },
-        {
-          "component": "select",
-          "label": "Mobile Icon",
-          "name": "selectTabType",
-          "valueType": "reference",
-          "description": "Select suitable size for mobile icon",
-          "options": [
-            { "name": "Icon Min Size", "value": "minIcon" },
-            { "name": "Icon Max Size", "value": "maxIcon" }
-          ]
         },
         {
           "component": "reference",
           "valueType": "string[]",
-          "name": "icon1",
-          "label": "Icon-1",
+          "name": "mobileIcon1Min",
+          "label": "Mobile Icon Min (320px)",
           "multi": false
         },
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "navLabel2",
-          "label": "Label-2",
-          "value": ""
-        },
-        {
           "component": "reference",
           "valueType": "string[]",
-          "name": "icon2",
-          "label": "Icon-2",
+          "name": "mobileIcon1Max",
+          "label": "Mobile Icon Max (767px)",
           "multi": false
         },
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "navLabel3",
-          "label": "Label-3",
-          "value": ""
+          "component": "reference",
+          "valueType": "string[]",
+          "name": "TabletIcon1Min",
+          "label": "Tablet Icon Min (768px)",
+          "multi": false
         },
         {
           "component": "reference",
           "valueType": "string[]",
-          "name": "icon3",
-          "label": "Icon-3",
+          "name": "TabletIcon1Max",
+          "label": "Tablet Icon Max (1023px)",
           "multi": false
         }
       ]
     }
   ],
-  "filters": [{}]
+  "filters": [
+    {
+      "id": "floating-navigation",
+      "components": ["floatingNavContent"]
+    }
+  ]
 }
