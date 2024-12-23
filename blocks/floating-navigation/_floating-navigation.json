@@ -36,7 +36,7 @@
           "multi": false
         },
         {
-          "component": "richtext",
+          "component": "text",
           "valueType": "string",
           "name": "middleLabel",
           "label": "Middle Label",
@@ -50,7 +50,7 @@
           "multi": false
         },
         {
-          "component": "richtext",
+          "component": "text",
           "valueType": "string",
           "name": "leftLabel",
           "label": "Left Label",
