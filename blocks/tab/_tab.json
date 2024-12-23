@@ -127,6 +127,7 @@
         {
           "component": "text",
           "name": "usp",
+          "key-value": true,
           "value": "",
           "label": "USP",
           "valueType": "string",
@@ -137,6 +138,7 @@
         {
           "component": "text",
           "name": "uspValue",
+          "key-value": true,
           "value": "",
           "label": "USP Value",
           "description": "Add USP and USP-Value as key-value pair",

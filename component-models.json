@@ -197,6 +197,53 @@
     ]
   },
   {
+    "id": "floating-navigation",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "rightLabel",
+        "label": "Right Label",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string[]",
+        "name": "rightIcon",
+        "label": "Right Icon",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "middleLabel",
+        "label": "Middle Label",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string[]",
+        "name": "middleIcon",
+        "label": "Middle Icon",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "leftLabel",
+        "label": "Left Label",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string[]",
+        "name": "leftIcon",
+        "label": "Left Icon",
+        "multi": false
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
@@ -427,7 +474,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "imageOtherDevices",
-        "label": "Image for other devices (Aspect ratio 1:1)",
+        "label": "Image for other devices (Aspect ratio 16:9)",
         "multi": false
       }
     ]
@@ -1039,6 +1086,7 @@
       {
         "component": "text",
         "name": "usp",
+        "key-value": true,
         "value": "",
         "label": "USP",
         "valueType": "string",
@@ -1056,6 +1104,7 @@
       {
         "component": "text",
         "name": "uspValue",
+        "key-value": true,
         "value": "",
         "label": "USP Value",
         "description": "Add USP and USP-Value as key-value pair",
