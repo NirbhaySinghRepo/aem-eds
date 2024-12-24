@@ -242,34 +242,6 @@
         "multi": false
       },
       {
-        "component": "select",
-        "label": "Select Icon type ",
-        "name": "selectIconType",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Request a Quote",
-            "value": "requestQuote"
-          },
-          {
-            "name": "Test Drive",
-            "value": "testDrive"
-          },
-          {
-            "name": "Learn More",
-            "value": "learnMore"
-          },
-          {
-            "name": "Find a Dealer",
-            "value": "findDealer"
-          },
-          {
-            "name": "Download Brochure",
-            "value": "downloadBrochure"
-          }
-        ]
-      },
-      {
         "component": "text",
         "valueType": "string",
         "name": "testDriveLabel",
@@ -281,6 +253,48 @@
         "valueType": "string",
         "name": "testDriveIconLink",
         "label": "Test Drive Icon Link",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "learnMoreLabel",
+        "label": "Learn More Label",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "learnMoreIconLink",
+        "label": "Learn More Icon Link",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "findDealerLabel",
+        "label": "Find Dealer Label",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "findDealerIconLink",
+        "label": "Find Dealer Icon Link",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "downloadBrochureLabel",
+        "label": "Download Brochure Label",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "downloadBrochureIconLink",
+        "label": "Download Brochure Icon Link",
         "multi": false
       },
       {
