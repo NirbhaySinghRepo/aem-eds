@@ -48,6 +48,12 @@
           "name": "iconContent",
           "label": "Icon Content",
           "multi": false
+        },
+        {
+          "component": "boolean",
+          "label": "Show Icon only for Mobile",
+          "name": "isMobileIcon",
+          "valueType": "boolean"
         }
       ]
     }
