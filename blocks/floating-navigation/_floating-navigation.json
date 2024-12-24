@@ -22,18 +22,10 @@
       "id": "floating-navigation",
       "fields": [
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "navLabel",
-          "label": "Label",
-          "value": ""
-        },
-        {
           "component": "select",
           "label": "Select Icon type ",
           "name": "selectIconType",
           "valueType": "string",
-          "description": "Select Icon type",
           "options": [
             { "name": "Request a Quote", "value": "requestQuote" },
             { "name": "Test Drive", "value": "testDrive" },
@@ -43,10 +35,44 @@
           ]
         },
         {
+          "component": "text",
+          "valueType": "string",
+          "name": "requestQuoteLabel",
+          "label": "Request Quote Label",
+          "value": ""
+        },
+        {
           "component": "aem-content",
           "valueType": "string",
-          "name": "iconContent",
-          "label": "Icon Content",
+          "name": "requestQuoteIconLink",
+          "label": "Request Quote Icon Link",
+          "multi": false
+        },
+        {
+          "component": "select",
+          "label": "Select Icon type ",
+          "name": "selectIconType",
+          "valueType": "string",
+          "options": [
+            { "name": "Request a Quote", "value": "requestQuote" },
+            { "name": "Test Drive", "value": "testDrive" },
+            { "name": "Learn More", "value": "learnMore" },
+            { "name": "Find a Dealer", "value": "findDealer" },
+            { "name": "Download Brochure", "value": "downloadBrochure" }
+          ]
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "testDriveLabel",
+          "label": "Test Drive Label",
+          "value": ""
+        },
+        {
+          "component": "aem-content",
+          "valueType": "string",
+          "name": "testDriveIconLink",
+          "label": "Test Drive Icon Link",
           "multi": false
         },
         {
