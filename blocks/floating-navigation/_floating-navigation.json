@@ -15,27 +15,11 @@
           }
         }
       }
-    },
-    {
-      "title": "Add Label",
-      "id": "floatingNavContent",
-      "plugins": {
-        "xwalk": {
-          "page": {
-            "resourceType": "core/franklin/components/block/v1/block/item",
-            "template": {
-              "name": "floatingNavContent",
-              "model": "floatingNavContent",
-              "filter": "floatingNavContent"
-            }
-          }
-        }
-      }
     }
   ],
   "models": [
     {
-      "id": "floatingNavContent",
+      "id": "floating-navigation",
       "fields": [
         {
           "component": "text",
@@ -46,24 +30,37 @@
         },
         {
           "component": "select",
-          "label": "Select device for Icon ",
-          "name": "selectTabType",
+          "label": "Select Icon type ",
+          "name": "selectIconType",
           "valueType": "string",
-          "description": "Select device and respective pixels for label",
+          "description": "Select Icon type",
           "options": [
-            { "name": "Mobile Icon Min (320px)", "value": "mobileIconMin" },
-            { "name": "Mobile Icon Max (767px)", "value": "mobileIconMax" },
-            { "name": "Tablet Icon Min (768px)", "value": "TabletIconMin" },
-            { "name": "Tablet Icon Max (1023px)", "value": "TabletIconMax" }
+            { "name": "Request a Quote", "value": "requestQuote" },
+            { "name": "Test Drive", "value": "testDrive" },
+            { "name": "Learn More", "value": "learnMore" },
+            { "name": "Find a Dealer", "value": "findDealer" },
+            { "name": "Download Brochure", "value": "downloadBrochure" }
+          ]
+        },
+        {
+          "component": "aem-content",
+          "valueType": "string",
+          "name": "iconContent",
+          "label": "Icon Content",
+          "multi": false
+        },
+        {
+          "component": "checkbox-group",
+          "label": "Show Icon only for Mobile",
+          "name": "isMobileShow",
+          "valueType": "string[]",
+          "description": "Select Icon type",
+          "options": [
+            { "name": "Check for Mobile Icon only", "value": "isMobileIcon" }
           ]
         }
       ]
     }
   ],
-  "filters": [
-    {
-      "id": "floating-navigation",
-      "components": ["floatingNavContent"]
-    }
-  ]
+  "filters": [{}]
 }

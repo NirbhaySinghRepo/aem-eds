@@ -47,12 +47,7 @@
     ]
   },
   {},
-  {
-    "id": "floating-navigation",
-    "components": [
-      "floatingNavContent"
-    ]
-  },
+  {},
   {
     "id": "media-carousel",
     "components": [

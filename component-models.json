@@ -197,7 +197,7 @@
     ]
   },
   {
-    "id": "floatingNavContent",
+    "id": "floating-navigation",
     "fields": [
       {
         "component": "text",
@@ -208,26 +208,50 @@
       },
       {
         "component": "select",
-        "label": "Select device for Icon ",
-        "name": "selectTabType",
+        "label": "Select Icon type ",
+        "name": "selectIconType",
         "valueType": "string",
-        "description": "Select device and respective pixels for label",
+        "description": "Select Icon type",
         "options": [
           {
-            "name": "Mobile Icon Min (320px)",
-            "value": "mobileIconMin"
+            "name": "Request a Quote",
+            "value": "requestQuote"
           },
           {
-            "name": "Mobile Icon Max (767px)",
-            "value": "mobileIconMax"
+            "name": "Test Drive",
+            "value": "testDrive"
           },
           {
-            "name": "Tablet Icon Min (768px)",
-            "value": "TabletIconMin"
+            "name": "Learn More",
+            "value": "learnMore"
           },
           {
-            "name": "Tablet Icon Max (1023px)",
-            "value": "TabletIconMax"
+            "name": "Find a Dealer",
+            "value": "findDealer"
+          },
+          {
+            "name": "Download Brochure",
+            "value": "downloadBrochure"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "iconContent",
+        "label": "Icon Content",
+        "multi": false
+      },
+      {
+        "component": "checkbox-group",
+        "label": "Show Icon only for Mobile",
+        "name": "isMobileShow",
+        "valueType": "string[]",
+        "description": "Select Icon type",
+        "options": [
+          {
+            "name": "Check for Mobile Icon only",
+            "value": "isMobileIcon"
           }
         ]
       }
