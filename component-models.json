@@ -201,8 +201,8 @@
     "fields": [
       {
         "component": "select",
-        "label": "Select Icon type ",
-        "name": "selectIconType",
+        "label": "Select Icon type -1",
+        "name": "selectIconType1",
         "valueType": "string",
         "options": [
           {
@@ -230,71 +230,183 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "requestQuoteLabel",
-        "label": "Request Quote Label",
+        "name": "label1",
+        "label": "Label -1",
         "value": ""
       },
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "requestQuoteIconLink",
-        "label": "Request Quote Icon Link",
+        "name": "iconLink1",
+        "label": "Icon Link -1",
         "multi": false
+      },
+      {
+        "component": "select",
+        "label": "Select Icon type -2",
+        "name": "selectIconType2",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Request a Quote",
+            "value": "requestQuote"
+          },
+          {
+            "name": "Test Drive",
+            "value": "testDrive"
+          },
+          {
+            "name": "Learn More",
+            "value": "learnMore"
+          },
+          {
+            "name": "Find a Dealer",
+            "value": "findDealer"
+          },
+          {
+            "name": "Download Brochure",
+            "value": "downloadBrochure"
+          }
+        ]
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "testDriveLabel",
-        "label": "Test Drive Label",
+        "name": "label2",
+        "label": "Label -2",
         "value": ""
       },
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "testDriveIconLink",
-        "label": "Test Drive Icon Link",
+        "name": "iconLink2",
+        "label": "Icon Link -2",
         "multi": false
+      },
+      {
+        "component": "select",
+        "label": "Select Icon type -3",
+        "name": "selectIconType3",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Request a Quote",
+            "value": "requestQuote"
+          },
+          {
+            "name": "Test Drive",
+            "value": "testDrive"
+          },
+          {
+            "name": "Learn More",
+            "value": "learnMore"
+          },
+          {
+            "name": "Find a Dealer",
+            "value": "findDealer"
+          },
+          {
+            "name": "Download Brochure",
+            "value": "downloadBrochure"
+          }
+        ]
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "learnMoreLabel",
-        "label": "Learn More Label",
+        "name": "label3",
+        "label": "Label -3",
         "value": ""
       },
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "learnMoreIconLink",
-        "label": "Learn More Icon Link",
+        "name": "iconLink3",
+        "label": "Icon Link -3",
         "multi": false
+      },
+      {
+        "component": "select",
+        "label": "Select Icon type -4",
+        "name": "selectIconType4",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Request a Quote",
+            "value": "requestQuote"
+          },
+          {
+            "name": "Test Drive",
+            "value": "testDrive"
+          },
+          {
+            "name": "Learn More",
+            "value": "learnMore"
+          },
+          {
+            "name": "Find a Dealer",
+            "value": "findDealer"
+          },
+          {
+            "name": "Download Brochure",
+            "value": "downloadBrochure"
+          }
+        ]
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "findDealerLabel",
-        "label": "Find Dealer Label",
+        "name": "label4",
+        "label": "Label -4",
         "value": ""
       },
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "findDealerIconLink",
-        "label": "Find Dealer Icon Link",
+        "name": "iconLink4",
+        "label": "Icon Link -4",
         "multi": false
+      },
+      {
+        "component": "select",
+        "label": "Select Icon type -5",
+        "name": "selectIconType5",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Request a Quote",
+            "value": "requestQuote"
+          },
+          {
+            "name": "Test Drive",
+            "value": "testDrive"
+          },
+          {
+            "name": "Learn More",
+            "value": "learnMore"
+          },
+          {
+            "name": "Find a Dealer",
+            "value": "findDealer"
+          },
+          {
+            "name": "Download Brochure",
+            "value": "downloadBrochure"
+          }
+        ]
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "downloadBrochureLabel",
-        "label": "Download Brochure Label",
+        "name": "label5",
+        "label": "Label -5",
         "value": ""
       },
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "downloadBrochureIconLink",
-        "label": "Download Brochure Icon Link",
+        "name": "iconLink5",
+        "label": "Icon Link -5",
         "multi": false
       },
       {
