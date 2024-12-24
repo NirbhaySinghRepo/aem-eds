@@ -48,16 +48,6 @@
           "name": "iconContent",
           "label": "Icon Content",
           "multi": false
-        },
-        {
-          "component": "checkbox-group",
-          "label": "Show Icon only for Mobile",
-          "name": "isMobileShow",
-          "valueType": "string[]",
-          "description": "Select Icon type",
-          "options": [
-            { "name": "Check for Mobile Icon only", "value": "isMobileIcon" }
-          ]
         }
       ]
     }
