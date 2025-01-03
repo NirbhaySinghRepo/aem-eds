@@ -410,10 +410,44 @@
         "multi": false
       },
       {
-        "component": "boolean",
-        "label": "Show Icon only for Mobile",
-        "name": "isMobileIcon",
-        "valueType": "boolean"
+        "component": "select",
+        "label": "Desktop & Tablet View",
+        "name": "desktopView",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Show only Icon",
+            "value": "desktopIconView"
+          },
+          {
+            "name": "Show only Text",
+            "value": "desktopTextView"
+          },
+          {
+            "name": "Show both Icon & Text",
+            "value": "desktopIconTextView"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "label": "Mobile View",
+        "name": "mobileView",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Show only Icon",
+            "value": "mobileIconView"
+          },
+          {
+            "name": "Show only Text",
+            "value": "mobileTextView"
+          },
+          {
+            "name": "Show both Icon & Text",
+            "value": "mobileIconTextView"
+          }
+        ]
       }
     ]
   },
