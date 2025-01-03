@@ -411,7 +411,7 @@
       },
       {
         "component": "select",
-        "label": "Desktop & Tablet View",
+        "label": "Desktop View",
         "name": "desktopView",
         "valueType": "string",
         "options": [
@@ -431,7 +431,7 @@
       },
       {
         "component": "select",
-        "label": "Mobile View",
+        "label": "Tablet & Mobile View",
         "name": "mobileView",
         "valueType": "string",
         "options": [
