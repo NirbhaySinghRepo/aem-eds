@@ -1339,7 +1339,7 @@
             "var2"
           ]
         },
-        "children": [
+        "fields": [
           {
             "component": "text",
             "name": "usp1",
