@@ -1339,7 +1339,7 @@
             "var2"
           ]
         },
-        "collapsible": true,
+        "collapsible": false,
         "fields": [
           {
             "component": "text",
