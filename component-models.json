@@ -1328,10 +1328,12 @@
         }
       },
       {
-        "component": "block",
-        "name": "uspAndValue",
+        "component": "text",
+        "name": "usp",
+        "key-value": true,
         "label": "USP and USP Value",
-        "description": "Add multiple USPs with their corresponding values as key-value pairs.",
+        "description": "Add USP and corresponding USP Value as key-value pairs.",
+        "valueType": "string",
         "multi": true,
         "condition": {
           "==": [
@@ -1343,14 +1345,12 @@
         },
         "fields": [
           {
-            "component": "text",
             "name": "usp1",
             "label": "USP",
             "valueType": "string",
             "description": "Enter the Unique Selling Proposition"
           },
           {
-            "component": "text",
             "name": "uspValue1",
             "label": "USP Value",
             "valueType": "string",
