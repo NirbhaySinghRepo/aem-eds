@@ -158,7 +158,7 @@
           "condition": {
             "==": [{ "var": "selectTabType" }, "var2"]
           },
-          "fields": [
+          "children": [
             {
               "name": "usp1",
               "label": "USP1",
