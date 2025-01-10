@@ -43,12 +43,51 @@ export default async function decorate(block) {
     tab.remove();
   });
 
-  document.getElementById("addButton").addEventListener("click", function () {
-    // Clone the first container and append it to the form
-    var container = document.querySelector(".uspEntry");
-    var newContainer = container.cloneNode(true);
-    document.getElementById("uspForm").appendChild(newContainer);
-  });
+  // Add internal CSS styles for the "Add More" button
+  const style = document.createElement("style");
+  style.innerHTML = `
+    .add-more-button {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .add-more-button:hover {
+      background-color: #0056b3;
+    }
+  `;
+  document.head.appendChild(style); // Append the style to the head of the document
 
+  // Check if the block is a container before adding the "Add More" button
+  if (block.classList.contains("container")) {
+    // Create the "Add More" button
+    const addButton = document.createElement("button");
+    addButton.id = "addButton";
+    addButton.innerText = "Add More USP/USP Value Pair";
+    addButton.className = "add-more-button";
+
+    // Append the "Add More" button to the block (container component)
+    block.appendChild(addButton);
+
+    // Add event listener for the "Add More" button to add more USP/USP Value containers
+    addButton.addEventListener("click", function () {
+      // Find the first .uspEntry container (the template for USP and USP Value fields)
+      const container = document.querySelector(".uspEntry");
+
+      // Check if the container exists before attempting to clone it
+      if (container) {
+        // Clone the first container and append it to the form (uspForm)
+        const newContainer = container.cloneNode(true);
+
+        // Append the cloned container to the uspForm container
+        document.getElementById("uspForm").appendChild(newContainer);
+      }
+    });
+  }
+
+  // Prepend tablist to the block
   block.prepend(tablist);
 }
