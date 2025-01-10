@@ -1328,7 +1328,7 @@
         }
       },
       {
-        "component": "tab",
+        "component": "container",
         "name": "uspContainer",
         "label": "USP and USP Value",
         "condition": {
@@ -1339,10 +1339,10 @@
             "var2"
           ]
         },
-        "multi": true,
+        "collapsible": true,
         "fields": [
           {
-            "component": "text-input",
+            "component": "text",
             "name": "usp1",
             "key-value": true,
             "value": "",
@@ -1351,7 +1351,7 @@
             "description": "Add USP as a key-value pair"
           },
           {
-            "component": "text-input",
+            "component": "text",
             "name": "uspValue1",
             "key-value": true,
             "value": "",
