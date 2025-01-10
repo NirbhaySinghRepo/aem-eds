@@ -1310,6 +1310,24 @@
         }
       },
       {
+        "component": "text",
+        "name": "uspValue",
+        "key-value": true,
+        "value": "",
+        "label": "USP Value",
+        "description": "Add USP and USP-Value as key-value pair",
+        "valueType": "string",
+        "multi": true,
+        "condition": {
+          "==": [
+            {
+              "var": "selectTabType"
+            },
+            "var2"
+          ]
+        }
+      },
+      {
         "component": "container",
         "name": "uspContainer",
         "label": "USP and USP Value",
@@ -1321,30 +1339,24 @@
             "var2"
           ]
         },
+        "multi": true,
         "fields": [
           {
-            "component": "repeater",
-            "name": "uspRepeater",
-            "label": "USP and USP Value Pair",
-            "fields": [
-              {
-                "component": "text",
-                "name": "usp1",
-                "key-value": true,
-                "value": "",
-                "label": "USP 1",
-                "valueType": "string",
-                "description": "Add USP as a key-value pair"
-              },
-              {
-                "component": "text",
-                "name": "uspValue1",
-                "key-value": true,
-                "value": "",
-                "label": "USP Value 1",
-                "description": "Add USP-Value as a key-value pair"
-              }
-            ]
+            "component": "text",
+            "name": "usp1",
+            "key-value": true,
+            "value": "",
+            "label": "USP 1",
+            "valueType": "string",
+            "description": "Add USP as a key-value pair"
+          },
+          {
+            "component": "text",
+            "name": "uspValue1",
+            "key-value": true,
+            "value": "",
+            "label": "USP Value 1",
+            "description": "Add USP-Value as a key-value pair"
           }
         ]
       }
