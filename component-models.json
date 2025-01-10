@@ -1328,7 +1328,7 @@
         }
       },
       {
-        "component": "array",
+        "component": "form",
         "name": "uspAndValue",
         "label": "USP and USP Value",
         "description": "Add multiple USPs with their corresponding values as key-value pairs.",
