@@ -1342,7 +1342,7 @@
         "multi": true,
         "fields": [
           {
-            "component": "text",
+            "component": "text-input",
             "name": "usp1",
             "key-value": true,
             "value": "",
@@ -1351,7 +1351,7 @@
             "description": "Add USP as a key-value pair"
           },
           {
-            "component": "text",
+            "component": "text-input",
             "name": "uspValue1",
             "key-value": true,
             "value": "",
