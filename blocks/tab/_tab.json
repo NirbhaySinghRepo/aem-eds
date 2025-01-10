@@ -147,25 +147,26 @@
           "condition": { "==": [{ "var": "selectTabType" }, "var2"] }
         },
         {
-          "component": "text",
+          "component": "array",
           "name": "uspAndValue",
-          "key-value": true,
-          "value": "",
           "label": "USP and USP Value",
-          "description": "Add USP and USP-Value as key-value pairs",
-          "valueType": "string",
+          "description": "Add multiple USPs with their corresponding values as key-value pairs.",
           "multi": true,
           "condition": { "==": [{ "var": "selectTabType" }, "var2"] },
           "fields": [
             {
+              "component": "text",
               "name": "usp1",
-              "label": "USP1",
-              "valueType": "string"
+              "label": "USP",
+              "valueType": "string",
+              "description": "Enter the Unique Selling Proposition"
             },
             {
+              "component": "text",
               "name": "uspValue1",
-              "label": "USP Value1",
-              "valueType": "string"
+              "label": "USP Value",
+              "valueType": "string",
+              "description": "Enter the value corresponding to the USP"
             }
           ]
         }
