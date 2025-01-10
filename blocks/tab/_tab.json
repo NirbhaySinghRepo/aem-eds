@@ -154,17 +154,16 @@
           "description": "Add USP and corresponding USP Value as key-value pairs.",
           "valueType": "string",
           "multi": true,
-          "condition": { "==": [{ "var": "selectTabType" }, "var2"] },
           "fields": [
             {
               "name": "usp1",
-              "label": "USP",
+              "label": "USP 1",
               "valueType": "string",
               "description": "Enter the Unique Selling Proposition"
             },
             {
               "name": "uspValue1",
-              "label": "USP Value",
+              "label": "USP Value 1",
               "valueType": "string",
               "description": "Enter the value corresponding to the USP"
             }
