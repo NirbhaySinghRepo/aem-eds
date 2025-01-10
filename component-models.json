@@ -1328,14 +1328,9 @@
         }
       },
       {
-        "component": "text",
-        "name": "uspAndValue",
-        "key-value": true,
-        "value": "",
+        "component": "multi",
+        "name": "uspContainer",
         "label": "USP and USP Value",
-        "description": "Add USP and USP-Value as key-value pairs",
-        "valueType": "string",
-        "multi": true,
         "condition": {
           "==": [
             {
@@ -1346,14 +1341,21 @@
         },
         "children": [
           {
+            "component": "text",
             "name": "usp1",
-            "label": "USP1",
-            "valueType": "string"
+            "key-value": true,
+            "value": "",
+            "label": "USP 1",
+            "valueType": "string",
+            "description": "Add USP and USP-Value as key-value pair"
           },
           {
-            "name": "uspValue 1",
+            "component": "text",
+            "name": "uspValue1",
+            "key-value": true,
+            "value": "",
             "label": "USP Value 1",
-            "valueType": "string"
+            "description": "Add USP and USP-Value as key-value pair"
           }
         ]
       }
