@@ -15,6 +15,13 @@ import {
 
 import { handleCookieConsent } from "./cookie.js";
 
+document.getElementById("addButton").addEventListener("click", function () {
+  // Clone the first container and append it to the form
+  var container = document.querySelector(".uspEntry");
+  var newContainer = container.cloneNode(true);
+  document.getElementById("uspForm").appendChild(newContainer);
+});
+
 /**
  * Moves all the attributes from a given elmenet to another given element.
  * @param {Element} from the element to copy attributes from
