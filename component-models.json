@@ -1347,8 +1347,7 @@
             "value": "",
             "label": "USP 1",
             "valueType": "string",
-            "description": "Add USP as a key-value pair",
-            "multi": true
+            "description": "Add USP as a key-value pair"
           },
           {
             "component": "text",
@@ -1356,8 +1355,7 @@
             "key-value": true,
             "value": "",
             "label": "USP Value 1",
-            "description": "Add USP-Value as a key-value pair",
-            "multi": true
+            "description": "Add USP-Value as a key-value pair"
           }
         ]
       }
