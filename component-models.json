@@ -1328,7 +1328,7 @@
         }
       },
       {
-        "component": "container",
+        "component": "group",
         "name": "uspContainer",
         "label": "USP and USP Value",
         "condition": {

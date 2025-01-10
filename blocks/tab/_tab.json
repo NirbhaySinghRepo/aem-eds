@@ -147,7 +147,7 @@
           "condition": { "==": [{ "var": "selectTabType" }, "var2"] }
         },
         {
-          "component": "container",
+          "component": "group",
           "name": "uspContainer",
           "label": "USP and USP Value",
           "condition": {
