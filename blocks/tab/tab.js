@@ -43,5 +43,12 @@ export default async function decorate(block) {
     tab.remove();
   });
 
+  document.getElementById("addButton").addEventListener("click", function () {
+    // Clone the first container and append it to the form
+    var container = document.querySelector(".uspEntry");
+    var newContainer = container.cloneNode(true);
+    document.getElementById("uspForm").appendChild(newContainer);
+  });
+
   block.prepend(tablist);
 }
