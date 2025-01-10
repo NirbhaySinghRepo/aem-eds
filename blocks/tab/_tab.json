@@ -154,7 +154,7 @@
             "==": [{ "var": "selectTabType" }, "var2"]
           },
           "multi": true,
-          "fields": [
+          "children": [
             {
               "component": "text-input",
               "name": "usp1",

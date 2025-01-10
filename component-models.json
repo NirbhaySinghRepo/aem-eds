@@ -1340,7 +1340,7 @@
           ]
         },
         "multi": true,
-        "fields": [
+        "children": [
           {
             "component": "text-input",
             "name": "usp1",
