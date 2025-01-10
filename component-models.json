@@ -1328,7 +1328,7 @@
         }
       },
       {
-        "component": "group",
+        "component": "tab",
         "name": "uspContainer",
         "label": "USP and USP Value",
         "condition": {
@@ -1340,7 +1340,7 @@
           ]
         },
         "multi": true,
-        "children": [
+        "fields": [
           {
             "component": "text-input",
             "name": "usp1",

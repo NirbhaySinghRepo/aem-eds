@@ -147,14 +147,14 @@
           "condition": { "==": [{ "var": "selectTabType" }, "var2"] }
         },
         {
-          "component": "group",
+          "component": "tab",
           "name": "uspContainer",
           "label": "USP and USP Value",
           "condition": {
             "==": [{ "var": "selectTabType" }, "var2"]
           },
           "multi": true,
-          "children": [
+          "fields": [
             {
               "component": "text-input",
               "name": "usp1",
