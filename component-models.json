@@ -1347,6 +1347,7 @@
             "value": "",
             "label": "USP 1",
             "valueType": "string",
+            "multi": true,
             "description": "Add USP as a key-value pair"
           },
           {
@@ -1355,6 +1356,7 @@
             "key-value": true,
             "value": "",
             "label": "USP Value 1",
+            "multi": true,
             "description": "Add USP-Value as a key-value pair"
           }
         ]
