@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/eds-site-nks/:/",
-    "/content/eds-site-nks/configuration:/.helix/config.json"
+    "/content/nks-eds-site/:/",
+    "/content/nks-eds-site/configuration:/.helix/config.json"
   ]
 }
